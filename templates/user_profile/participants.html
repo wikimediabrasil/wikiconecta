@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans "Participants" %}{% endblock %}
+
+{% block content %}
+    <div class="w3-container">
+        <h1>{% trans "WikiConecta's dashboard participants" %}</h1>
+        {% if years %}
+            <a {% if active_year %}href="{% url 'participants' %}"{% endif %}>{% translate "All" %}</a>
+            {% for year in years %}
+            <a {% if year != active_year %}href="{% url 'participants' %}?year={{year}}"{% endif %}>{{ year }}</a>
+            {% endfor %}
+        {% endif %}
+        <span style="float: right;">
+            <a href="#" hx-get="{% url 'update' %}" hx-swap="outerHTML">{% translate "Update list" %}</a>
+        </span>
+        <div class="w3-container">
+            <table style="width: 100%; text-align: center">
+                <thead>
+                    <tr>
+                        <th>{% trans "Enrolled at" %}</th>
+                        <th>{% trans "Username" %}</th>
+                        <th>{% trans "Registered here" %}</th>
+                        <th>{% trans "Requested certificate" %}</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for participant in participants %}
+                        <tr>
+                            <td>{% if participant.enrolled_at %}{{ participant.enrolled_at }}{% else %}{% trans "N.A." %}{% endif %}</td>
+                            <td>{{ participant.username }}</td>
+                            <td>{% if participant.user %}<b>{% trans "Yes" %}</b>{% else %}{% trans "No" %}{% endif %}</td>
+                            <td>{% if participant.user.requested_certificate %}<b>{% trans "Yes" %}</b>{% else %}{% trans "No" %}{% endif %}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+{% endblock %}

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 03:38-0300\n"
+"POT-Creation-Date: 2026-05-19 03:49-0300\n"
 "PO-Revision-Date: 2023-09-22 21:54+0300\n"
 "Last-Translator: Éder Porto <eder.porto@wmnobrasil.org>\n"
 "Language: pt-br\n"
@@ -26,7 +26,7 @@ msgid "Order of the module"
 msgstr "Ordem do módulo"
 
 #: .\certificate\models.py:17
-#: .\templates\certificate\manage_certificates.html:28
+#: .\templates\certificate\manage_certificates.html:30
 msgid "Activity link"
 msgstr "Link da atividade"
 
@@ -39,23 +39,23 @@ msgstr "Atividade nº %(order)s de %(user)s"
 msgid "Enrollment"
 msgstr "Matrícula"
 
-#: .\certificate\models.py:31 .\templates\navbar.html:62
+#: .\certificate\models.py:31 .\templates\navbar.html:68
 msgid "Certificate"
 msgstr "Certificado"
 
-#: .\certificate\views.py:111 .\certificate\views.py:325
+#: .\certificate\views.py:117 .\certificate\views.py:331
 #, python-brace-format
 msgid "attachment; filename=WikiConecta - Enrollment - {name}.pdf"
 msgstr "attachment; filename=WikiConecta - Matrícula - {name}.pdf"
 
-#: .\certificate\views.py:115
+#: .\certificate\views.py:121
 #, python-brace-format
 msgid ""
 "attachment; filename=WikiConecta - Certificate of Completion - {name}.pdf"
 msgstr ""
 "attachment; filename=WikiConecta - Certificado de Conclusão - {name}.pdf"
 
-#: .\certificate\views.py:132 .\certificate\views.py:143
+#: .\certificate\views.py:138 .\certificate\views.py:149
 #, python-brace-format
 msgid ""
 "The validity of this document can be checked at https://wikiconecta."
@@ -66,19 +66,19 @@ msgstr ""
 "toolforge.org/\n"
 "O código de validação é: {code}"
 
-#: .\certificate\views.py:196
+#: .\certificate\views.py:202
 msgid "São Paulo, "
 msgstr "São Paulo, "
 
-#: .\certificate\views.py:196
+#: .\certificate\views.py:202
 msgid "%B %d, %Y"
 msgstr "%d de %B de %Y"
 
-#: .\certificate\views.py:204
+#: .\certificate\views.py:210
 msgid "To whom it may concern"
 msgstr "A quem possa interessar"
 
-#: .\certificate\views.py:220
+#: .\certificate\views.py:226
 msgid ""
 "The WikiConecta course (https://w.wiki/7KwX) was developed by Wikimedia "
 "Brasil, a non-profit organization that works towards free knowledge under "
@@ -127,7 +127,7 @@ msgstr ""
 "e desenvolver seus próprios programas de wiki-educação, visando cumprir as "
 "diretrizes da extensão universitária brasileira."
 
-#: .\certificate\views.py:224
+#: .\certificate\views.py:230
 msgid ""
 "The WikiConecta is divided into six modules, each one divided into several "
 "units:"
@@ -135,155 +135,155 @@ msgstr ""
 "O WikiConecta é dividido em seis módulos, cada qual subdividido em várias "
 "unidades. São elas:"
 
-#: .\certificate\views.py:226
+#: .\certificate\views.py:232
 msgid "Module 1: Introduction"
 msgstr "Módulo 1: Introdução"
 
-#: .\certificate\views.py:229
+#: .\certificate\views.py:235
 msgid ""
 "Free Knowledge: potentials and advantages of using the Wikimedia Projects"
 msgstr ""
 "Conhecimento livre: potenciais e vantagens de usar os projetos Wikimedia"
 
-#: .\certificate\views.py:231
+#: .\certificate\views.py:237
 msgid "The Wikimedia Projects and Organizations"
 msgstr "Projetos e Organizações Wikimedia"
 
-#: .\certificate\views.py:233
+#: .\certificate\views.py:239
 msgid "Collective ntelligence and open data"
 msgstr "Inteligência coletiva e dados abertos"
 
-#: .\certificate\views.py:235
+#: .\certificate\views.py:241
 msgid "Wikimedia programs, initiatives and events"
 msgstr "Programas, iniciativas e eventos Wikimedia"
 
-#: .\certificate\views.py:237
+#: .\certificate\views.py:243
 msgid "Module 2: Wikipedia"
 msgstr "Módulo 2: A Wikipédia"
 
-#: .\certificate\views.py:240
+#: .\certificate\views.py:246
 msgid "Wikipedia as an educational resource"
 msgstr "A Wikipédia como recurso educacional"
 
-#: .\certificate\views.py:242
+#: .\certificate\views.py:248
 msgid "Diffusion and scientific dissemination on Wikipedia"
 msgstr "Difusão e divulgação científica na Wikipédia"
 
-#: .\certificate\views.py:244
+#: .\certificate\views.py:250
 msgid "Content and equity gaps"
 msgstr "Lacunas de conteúdo e equidade"
 
-#: .\certificate\views.py:246
+#: .\certificate\views.py:252
 msgid "Principles and foundations of Wikipedia"
 msgstr "Princípios e fundamentos da Wikipédia"
 
-#: .\certificate\views.py:248
+#: .\certificate\views.py:254
 msgid "Entries and arrangement of information"
 msgstr "Os verbetes e a disposição das informações"
 
-#: .\certificate\views.py:250
+#: .\certificate\views.py:256
 msgid "Editing Wikipedia"
 msgstr "Editando a Wikipédia"
 
-#: .\certificate\views.py:252
+#: .\certificate\views.py:258
 msgid "Using Wikipedia with students"
 msgstr "Utilizando a Wikipédia com estudantes"
 
-#: .\certificate\views.py:254
+#: .\certificate\views.py:260
 msgid "Module 3: Wikidata"
 msgstr "Módulo 3: O Wikidata"
 
-#: .\certificate\views.py:257
+#: .\certificate\views.py:263
 msgid "The Wikimedia structured database"
 msgstr "O banco de dados estruturados da Wikimedia"
 
-#: .\certificate\views.py:259
+#: .\certificate\views.py:265
 msgid "Getting data: Wikidata Query Service and Scholia"
 msgstr "Obtendo dados: Wikidata Query Service e Scholia"
 
-#: .\certificate\views.py:261
+#: .\certificate\views.py:267
 msgid "Entering data: how to use Zotero"
 msgstr "Inserindo dados: como usar o Zotero"
 
-#: .\certificate\views.py:263
+#: .\certificate\views.py:269
 msgid "Bias and subjectivity in data"
 msgstr "Viés e subjetividade nos dados"
 
-#: .\certificate\views.py:265
+#: .\certificate\views.py:271
 msgid "Editing Wikidata"
 msgstr "Editando o Wikidata"
 
-#: .\certificate\views.py:267
+#: .\certificate\views.py:273
 msgid "Using Wikidata with students"
 msgstr "Utilizando o Wikidata com estudantes"
 
-#: .\certificate\views.py:269
+#: .\certificate\views.py:275
 msgid "Module 4: Wikimedia Commons"
 msgstr "Módulo 4: O Wikimedia Commons"
 
-#: .\certificate\views.py:272
+#: .\certificate\views.py:278
 msgid "Wikimedia audiovisual repository"
 msgstr "Repositório audiovisual da Wikimedia"
 
-#: .\certificate\views.py:274
+#: .\certificate\views.py:280
 msgid "Creative commons and free licenses"
 msgstr "Creative commons e licenças livres"
 
-#: .\certificate\views.py:276
+#: .\certificate\views.py:282
 msgid "How to use Wikimedia Commons"
 msgstr "Como usar o Wikimedia Commons"
 
-#: .\certificate\views.py:278
+#: .\certificate\views.py:284
 msgid "File upload"
 msgstr "Carregamento de arquivos"
 
-#: .\certificate\views.py:280
+#: .\certificate\views.py:286
 msgid "Using Wikimedia Commons with students"
 msgstr "Utilizando o Wikimedia Commons com estudantes"
 
-#: .\certificate\views.py:284
+#: .\certificate\views.py:290
 msgid "Module 5: Wikiversity"
 msgstr "Módulo 5: A Wikiversidade"
 
-#: .\certificate\views.py:287
+#: .\certificate\views.py:293
 msgid "Wikiversity - the free university"
 msgstr "Wikiversidade - a universidade livre"
 
-#: .\certificate\views.py:289
+#: .\certificate\views.py:295
 msgid ""
 "Open Educational Resources (OER) and Massive Open Online Courses (MOOCs)"
 msgstr ""
 "Recursos Educacionais Abertos (REA) e Massive Open Online Courses (MOOCs)"
 
-#: .\certificate\views.py:291
+#: .\certificate\views.py:297
 msgid "Editing the Wikiversity"
 msgstr "Editando a Wikiversidade"
 
-#: .\certificate\views.py:293
+#: .\certificate\views.py:299
 msgid "Using Wikiversity with students"
 msgstr "Utilizando a Wikiversidade com estudantes"
 
-#: .\certificate\views.py:295
+#: .\certificate\views.py:301
 msgid "Module 6: Education programs"
 msgstr "Módulo 6: Programas de educação"
 
-#: .\certificate\views.py:298
+#: .\certificate\views.py:304
 msgid "Creating an education program with Wiki"
 msgstr "Criando um programa de educação com a Wiki"
 
-#: .\certificate\views.py:300
+#: .\certificate\views.py:306
 msgid "Program monitoring: Dashboard"
 msgstr "Acompanhamento de programas: Dashboard"
 
-#: .\certificate\views.py:302
+#: .\certificate\views.py:308
 msgid "Potential financiers"
 msgstr "Potenciais financiadores"
 
-#: .\certificate\views.py:304
+#: .\certificate\views.py:310
 msgid "Wikimedia and Education in Brazil"
 msgstr "Wikimedia e Educação no Brasil"
 
-#: .\certificate\views.py:306
+#: .\certificate\views.py:312
 #, python-brace-format
 msgid ""
 "The course is free and the control of activities is carried out by resources "
@@ -308,7 +308,7 @@ msgstr ""
 "\n"
 "Atenciosamente,"
 
-#: .\certificate\views.py:316
+#: .\certificate\views.py:322
 msgid ""
 "_________________________________\n"
 "ALEXANDER MAXIMILIAN HILSENBECK FILHO\n"
@@ -320,7 +320,7 @@ msgstr ""
 "Coordenador\n"
 "WikiConecta"
 
-#: .\certificate\views.py:319 .\certificate\views.py:418
+#: .\certificate\views.py:325 .\certificate\views.py:424
 msgid ""
 "_________________________________\n"
 "JOÃO ALEXANDRE PESCHANSKI\n"
@@ -332,23 +332,23 @@ msgstr ""
 "Diretor Executivo\n"
 "Wikimedia Brasil"
 
-#: .\certificate\views.py:358
+#: .\certificate\views.py:364
 msgid "CERTIFICATE"
 msgstr "CERTIFICADO"
 
-#: .\certificate\views.py:362
+#: .\certificate\views.py:368
 msgid "We grant this certificate to"
 msgstr "Nós concedemos este certificado a"
 
-#: .\certificate\views.py:396
+#: .\certificate\views.py:402
 msgid "for completing the readings and tasks of the online course"
 msgstr "por ter completado as leituras e atividades do curso online"
 
-#: .\certificate\views.py:403
+#: .\certificate\views.py:409
 msgid "Initiative:"
 msgstr "Iniciativa"
 
-#: .\certificate\views.py:412
+#: .\certificate\views.py:418
 msgid ""
 "_______________________________________\n"
 "ALEXANDER MAXIMILIAN HILSENBECK FILHO\n"
@@ -360,7 +360,7 @@ msgstr ""
 "Coordenador\n"
 "WikiConecta"
 
-#: .\certificate\views.py:423
+#: .\certificate\views.py:429
 msgid ""
 "The WikiConecta course does not have record control, readings and tasks are "
 "freely accessible.\n"
@@ -372,7 +372,7 @@ msgstr ""
 "Este certificado, portanto, não é reconhecido como um diploma oficial.\n"
 "O curso totaliza para sua realização vinte horas."
 
-#: .\certificate\views.py:444
+#: .\certificate\views.py:450
 #, python-brace-format
 msgid ""
 "Dear {name},<br><br>We hope this message finds you well. We want to inform "
@@ -383,7 +383,7 @@ msgstr ""
 "Queremos te informar sobre o status da sua participação no curso online "
 "<b>WikiConecta</b>."
 
-#: .\certificate\views.py:445
+#: .\certificate\views.py:451
 msgid ""
 "After a thorough review of your assessments of the course, we noticed that "
 "you've encountered some challenges with specific assignments or assessments. "
@@ -410,7 +410,7 @@ msgstr ""
 "ou preocupação sobre eles ou sobre nossa avaliação, não hesite em contactar "
 "os organizadores do curso.<br><br><b>Lista de módulos</b>"
 
-#: .\certificate\views.py:446
+#: .\certificate\views.py:452
 msgid ""
 "In name of <b><i>Wikimedia Brasil</i></b>, we are excited to inform you that "
 "your <b>Certificate of Completion</b> for the WikiConecta online course is "
@@ -429,7 +429,7 @@ msgstr ""
 "o ecossistema do Conhecimento Livre<br><br>Em anexo você encontrará seu "
 "certificado."
 
-#: .\certificate\views.py:447 .\certificate\views.py:510
+#: .\certificate\views.py:453 .\certificate\views.py:516
 msgid ""
 "<font style='color:#4A51D2; font-weight:bold; font-style:"
 "italic;'>WikiConecta: Wikipedia in all its extension</font><br><a "
@@ -441,40 +441,40 @@ msgstr ""
 "target='_blank' href='https://pt.wikiversity.org/wiki/WikiConecta'>https://"
 "pt.wikiversity.org/wiki/WikiConecta</a>"
 
-#: .\certificate\views.py:448
+#: .\certificate\views.py:454
 msgid "<li><i>Module 1 - Introduction</i></li>"
 msgstr "<li><i>Módulo 1 - Introdução</i></li>"
 
-#: .\certificate\views.py:449
+#: .\certificate\views.py:455
 msgid "<li><i>Module 2 - Wikipedia</i></li>"
 msgstr "<li><i>Módulo 2 - A Wikipédia</i></li>"
 
-#: .\certificate\views.py:450
+#: .\certificate\views.py:456
 msgid "<li><i>Module 3 - Wikidata</i></li>"
 msgstr "<li><i>Módulo 3 - O Wikidata</i></li>"
 
-#: .\certificate\views.py:451
+#: .\certificate\views.py:457
 msgid "<li><i>Module 4 - Wikimedia Commons</i></li>"
 msgstr "<li><i>Módulo 4 - O Wikimedia Commons</i></li>"
 
-#: .\certificate\views.py:452
+#: .\certificate\views.py:458
 msgid "<li><i>Module 5 - Wikiversity</i></li>"
 msgstr "<li><i>Módulo 5 - A Wikiversidade</i></li>"
 
-#: .\certificate\views.py:453
+#: .\certificate\views.py:459
 msgid "<li><i>Module 6 - Education programs</i></li>"
 msgstr "<li><i>Módulo 6 - Programas de educação</i></li>"
 
-#: .\certificate\views.py:482 .\certificate\views.py:526
+#: .\certificate\views.py:488 .\certificate\views.py:532
 msgid "WikiConecta - Certificate of Completion request"
 msgstr "WikiConecta - Requisição de Certificado de Conclusão"
 
-#: .\certificate\views.py:492
+#: .\certificate\views.py:498
 #, python-brace-format
 msgid "WikiConecta - Certificate of Completion - {name}.pdf"
 msgstr "WikiConecta - Certificado de Conclusão - {name}.pdf"
 
-#: .\certificate\views.py:508
+#: .\certificate\views.py:514
 #, python-brace-format
 msgid ""
 "Dear coordinators,<br><br>The participant <b>{name} (User:{username})</b> of "
@@ -487,7 +487,7 @@ msgstr ""
 "você revise suas atividades e, se corretas, lhe envie o certificado de "
 "conclusão do curso."
 
-#: .\certificate\views.py:509
+#: .\certificate\views.py:515
 msgid ""
 "You can find this and other participants with pending evaluations at https://"
 "wikiconecta.toolforge.org/manage_certificates."
@@ -530,7 +530,7 @@ msgid "Longitude"
 msgstr "Longitude"
 
 #: .\education_program\models.py:24
-#: .\templates\certificate\manage_certificates.html:15
+#: .\templates\certificate\manage_certificates.html:16
 msgid "Name"
 msgstr "Nome"
 
@@ -634,55 +634,66 @@ msgid "WikiConecta's certificates"
 msgstr "Certificados do WikiConecta's"
 
 #: .\templates\certificate\manage_certificates.html:14
+#: .\templates\user_profile\participants.html:23
+msgid "Enrolled at"
+msgstr "Matrícula"
+
+#: .\templates\certificate\manage_certificates.html:15
 #: .\templates\education_program\add_education_program.html:78
 #: .\templates\education_program\add_education_program.html:123
 #: .\templates\education_program\list_education_programs_by_professor.html:18
 #: .\templates\education_program\update_education_program.html:84
 #: .\templates\education_program\update_education_program.html:129
+#: .\templates\user_profile\participants.html:24
 msgid "Username"
 msgstr "Nome de usuário(a)"
 
-#: .\templates\certificate\manage_certificates.html:16
+#: .\templates\certificate\manage_certificates.html:17
 msgid "Activities"
 msgstr "Atividades"
 
-#: .\templates\certificate\manage_certificates.html:17
+#: .\templates\certificate\manage_certificates.html:18
 msgid "Mark the activities with problems"
 msgstr "Marque as atividades com problemas"
 
-#: .\templates\certificate\manage_certificates.html:18
+#: .\templates\certificate\manage_certificates.html:19
 msgid "Send message"
 msgstr "Enviar mensagem"
 
-#: .\templates\certificate\manage_certificates.html:28
+#: .\templates\certificate\manage_certificates.html:25
+#: .\templates\user_profile\participants.html:32
+msgid "N.A."
+msgstr "N.A."
+
+#: .\templates\certificate\manage_certificates.html:30
 msgid "Activity"
 msgstr "Atividade"
 
-#: .\templates\certificate\manage_certificates.html:35
+#: .\templates\certificate\manage_certificates.html:37
 msgid "Activity 1"
 msgstr "Atividade nº 1"
 
-#: .\templates\certificate\manage_certificates.html:36
+#: .\templates\certificate\manage_certificates.html:38
 msgid "Activity 2"
 msgstr "Atividade nº 2"
 
-#: .\templates\certificate\manage_certificates.html:37
+#: .\templates\certificate\manage_certificates.html:39
 msgid "Activity 3"
 msgstr "Atividade nº 3"
 
-#: .\templates\certificate\manage_certificates.html:38
+#: .\templates\certificate\manage_certificates.html:40
 msgid "Activity 4"
 msgstr "Atividade nº 4"
 
-#: .\templates\certificate\manage_certificates.html:39
+#: .\templates\certificate\manage_certificates.html:41
 msgid "Activity 5"
 msgstr "Atividade nº 5"
 
-#: .\templates\certificate\manage_certificates.html:40
+#: .\templates\certificate\manage_certificates.html:42
 msgid "Activity 6"
 msgstr "Atividade nº 6"
 
-#: .\templates\certificate\manage_certificates.html:43
+#: .\templates\certificate\manage_certificates.html:45
 msgid "Send Message"
 msgstr "Enviar mensagem"
 
@@ -1000,15 +1011,19 @@ msgstr "Página inicial"
 msgid "Join"
 msgstr "Inscrever-se"
 
-#: .\templates\navbar.html:74
+#: .\templates\navbar.html:59 .\templates\user_profile\participants.html:5
+msgid "Participants"
+msgstr "Participantes"
+
+#: .\templates\navbar.html:80
 msgid "You have registration issues"
 msgstr "Você tem problemas na sua matrícula"
 
-#: .\templates\navbar.html:81
+#: .\templates\navbar.html:87
 msgid "Logout"
 msgstr "Sair"
 
-#: .\templates\navbar.html:89
+#: .\templates\navbar.html:95
 msgid "Login"
 msgstr "Entrar"
 
@@ -1185,6 +1200,36 @@ msgstr ""
 "target=\"_blank\" href=\"https://pt.wikiversity.org/wiki/WikiConecta/"
 "Tutorial_certificado\" aria-label=\"Tutorial do processo de "
 "certificação\">tutorial feito pela equipe do WMB</a>."
+
+#: .\templates\user_profile\participants.html:9
+msgid "WikiConecta's dashboard participants"
+msgstr "Participantes do dashboard do WikiConecta"
+
+#: .\templates\user_profile\participants.html:11
+msgid "All"
+msgstr "Todos"
+
+#: .\templates\user_profile\participants.html:17
+msgid "Update list"
+msgstr "Atualizar lista"
+
+#: .\templates\user_profile\participants.html:25
+msgid "Registered here"
+msgstr "Cadastrado aqui"
+
+#: .\templates\user_profile\participants.html:26
+msgid "Requested certificate"
+msgstr "Pediu certificado"
+
+#: .\templates\user_profile\participants.html:34
+#: .\templates\user_profile\participants.html:35
+msgid "Yes"
+msgstr "Sim"
+
+#: .\templates\user_profile\participants.html:34
+#: .\templates\user_profile\participants.html:35
+msgid "No"
+msgstr "Não"
 
 #: .\templates\user_profile\profile.html:5
 msgid "Profile"

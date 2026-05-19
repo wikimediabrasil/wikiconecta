@@ -72,7 +72,9 @@ def update_list_of_participants(request):
 
     users = User.objects.filter(username__in=list_of_new_participants_usernames)
     users.update(is_student=True)
-    return HttpResponse(_("Ok, database updated"), status=200)
+    response = HttpResponse(_("Ok, database updated"), status=200)
+    response.headers["HX-Refresh"] = "true"
+    return response
 
 
 def get_list_of_participants():
@@ -97,3 +99,20 @@ def login_oauth(request):
 def logout(request):
     auth_logout(request)
     return redirect(reverse('homepage'))
+
+def participants(request):
+    participants = Participant.objects.all().order_by("-enrolled_at")
+    active_year = request.GET.get("year")
+    if active_year and active_year.isdigit():
+        active_year = int(active_year)
+        participants = participants.filter(enrolled_at__year=active_year)
+    for participant in participants:
+        # TODO: improve performance if becomes necessary
+        participant.user = User.objects.filter(username=participant.username).first()
+    available_years = Participant.objects.values_list("enrolled_at__year", flat=True).distinct()
+    data = {
+        "participants": participants,
+        "active_year": active_year,
+        "years": sorted(available_years),
+    }
+    return render(request, "user_profile/participants.html", data)

@@ -89,6 +89,12 @@ def manage_certificates(request):
     Loads page for organizers to manage and send certificates or messages
     """
     users = User.objects.filter(requested_certificate=True)
+    for user in users:
+        # TODO: improve performance if this becomes slow
+        user.enrolled_at = None
+        participant = Participant.objects.filter(username=user.username).first()
+        if participant:
+            user.enrolled_at = participant.enrolled_at
 
     if request.method == "POST":
         form = request.POST
