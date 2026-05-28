@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-10 15:59-0300\n"
+"POT-Creation-Date: 2026-05-28 20:12-0300\n"
 "PO-Revision-Date: 2023-09-22 21:54+0300\n"
 "Last-Translator: Éder Porto <eder.porto@wmnobrasil.org>\n"
 "Language: pt-br\n"
@@ -57,12 +57,12 @@ msgstr ""
 #: certificate/views.py:138 certificate/views.py:149
 #, python-brace-format
 msgid ""
-"The validity of this document can be checked at https://wikiconecta."
-"toolforge.org/\n"
+"The validity of this document can be checked at https://"
+"wikiconecta.toolforge.org/\n"
 "The validation code is: {code}"
 msgstr ""
-"A veracidade deste documento pode ser verificada em https://wikiconecta."
-"toolforge.org/\n"
+"A veracidade deste documento pode ser verificada em https://"
+"wikiconecta.toolforge.org/\n"
 "O código de validação é: {code}"
 
 #: certificate/views.py:202
@@ -78,18 +78,43 @@ msgid "To whom it may concern"
 msgstr "A quem possa interessar"
 
 #: certificate/views.py:226
+#, fuzzy
+#| msgid ""
+#| "The WikiConecta course (https://w.wiki/7KwX) was developed by Wiki "
+#| "Movimento Brasil, a non-profit organization that works towards free "
+#| "knowledge under CNPJ 29.801.908/0001-86. To complete it, 20 hours of "
+#| "dedication are required, asynchronously and independently, and the course "
+#| "is available on an open online education platform, the Wikiversity.\n"
+#| "\n"
+#| "The units were developed by Professor Amanda Chevtchouk Jurno, PhD, "
+#| "former Education and Scientific Dissemination Manager at Wikimedia "
+#| "Brasil, with scientific guidance from Professor João Alexandre "
+#| "Peschanski, PhD, Executive Director of Wikimedia Brasil. In order to "
+#| "adapt the content to the expectations of the Wikimedia Movement and "
+#| "ensure that it covered the information necessary to introduce educators "
+#| "to this universe, the course had strategic guidance from senior members "
+#| "of the Movement working in the area of Education in various regions of "
+#| "the world.\n"
+#| "\n"
+#| "The objective of the course is to present in a condensed form the "
+#| "information that educators need to start using the Wikimedia projects "
+#| "with their students, especially in university extension. At the end of "
+#| "the course, participants should be able to basic edit four Wikimedia "
+#| "projects - Wikipedia, Wikidata, Wikimedia Commons and Wikiversity - and "
+#| "develop their own wiki-education programs, aiming to comply with "
+#| "Brazilian university extension guidelines."
 msgid ""
-"The WikiConecta course (https://w.wiki/7KwX) was developed by Wiki Movimento "
+"The WikiConecta course (https://w.wiki/7KwX) was developed by Wikimedia "
 "Brasil, a non-profit organization that works towards free knowledge under "
 "CNPJ 29.801.908/0001-86. To complete it, 20 hours of dedication are "
 "required, asynchronously and independently, and the course is available on "
 "an open online education platform, the Wikiversity.\n"
 "\n"
 "The units were developed by Professor Amanda Chevtchouk Jurno, PhD, former "
-"Education and Scientific Dissemination Manager at Wikimedia Brasil, "
-"with scientific guidance from Professor João Alexandre Peschanski, PhD, "
-"Executive Director of Wikimedia Brasil. In order to adapt the content "
-"to the expectations of the Wikimedia Movement and ensure that it covered the "
+"Education and Scientific Dissemination Manager at Wikimedia Brasil, with "
+"scientific guidance from Professor João Alexandre Peschanski, PhD, Executive "
+"Director of Wikimedia Brasil. In order to adapt the content to the "
+"expectations of the Wikimedia Movement and ensure that it covered the "
 "information necessary to introduce educators to this universe, the course "
 "had strategic guidance from senior members of the Movement working in the "
 "area of Education in various regions of the world.\n"
@@ -110,13 +135,13 @@ msgstr ""
 "Wikiversidade.\n"
 "\n"
 "As unidades foram desenvolvidas pela Professora Doutora Amanda Chevtchouk "
-"Jurno, ex-gestora de Educação e Difusão Científica do Wikimedia Brasil, "
-"com orientação científica do Professor Doutor João Alexandre Peschanski, "
-"Diretor Executivo do Wikimedia Brasil. A fim de adequar o conteúdo às "
-"expectativas do Movimento Wikimedia e garantir que este cobrisse as "
-"informações necessárias para a introdução dos educadores neste universo, o "
-"curso teve orientação estratégica de membros sêniores do Movimento atuantes "
-"na área de Educação em várias regiões do mundo.\n"
+"Jurno, ex-gestora de Educação e Difusão Científica do Wikimedia Brasil, com "
+"orientação científica do Professor Doutor João Alexandre Peschanski, Diretor "
+"Executivo do Wikimedia Brasil. A fim de adequar o conteúdo às expectativas "
+"do Movimento Wikimedia e garantir que este cobrisse as informações "
+"necessárias para a introdução dos educadores neste universo, o curso teve "
+"orientação estratégica de membros sêniores do Movimento atuantes na área de "
+"Educação em várias regiões do mundo.\n"
 "\n"
 "O objetivo do curso é apresentar de forma condensada as informações que "
 "educadores precisam para começar a usar os projetos Wikimedia com seus "
@@ -361,8 +386,8 @@ msgstr ""
 
 #: certificate/views.py:429
 msgid ""
-"WikiConecta is a free access course with a workload of 20 hours "
-"to complete readings and activities.\n"
+"WikiConecta is a free access course with a workload of 20 hours to complete "
+"readings and activities.\n"
 "This certificate is not recognized as an official diploma."
 msgstr ""
 "O WikiConecta é um curso de acesso livre com uma carga de 20 horas para "
@@ -418,8 +443,8 @@ msgid ""
 "building the Free Knowledge ecossystem<br><br>Attatched you will find your "
 "certificate."
 msgstr ""
-"Nós do <b><i>Grupo de Usuários Wikimedia Brasil</i></b> estamos felizes "
-"em lhe informar que seu <b>Certificado de Conclusão</b> do curso online "
+"Nós do <b><i>Grupo de Usuários Wikimedia Brasil</i></b> estamos felizes em "
+"lhe informar que seu <b>Certificado de Conclusão</b> do curso online "
 "WikiConecta agora está pronto para download e verificação.<br><br>Você "
 "concluiu com êxito todas as tarefas exigidas, demonstrando sua dedicação e "
 "comprometimento com o aprendizado. Seu certificado serve como um testamentoà "
@@ -429,13 +454,13 @@ msgstr ""
 
 #: certificate/views.py:453 certificate/views.py:516
 msgid ""
-"<font style='color:#4A51D2; font-weight:bold; font-style:"
-"italic;'>WikiConecta: Wikipedia in all its extension</font><br><a "
+"<font style='color:#4A51D2; font-weight:bold; font-"
+"style:italic;'>WikiConecta: Wikipedia in all its extension</font><br><a "
 "target='_blank' href='https://pt.wikiversity.org/wiki/WikiConecta'>https://"
 "pt.wikiversity.org/wiki/WikiConecta</a>"
 msgstr ""
-"<font style='color:#4A51D2; font-weight:bold; font-style:"
-"italic;'>WikiConecta: A Wikipédia em toda a sua extensão</font><br><a "
+"<font style='color:#4A51D2; font-weight:bold; font-"
+"style:italic;'>WikiConecta: A Wikipédia em toda a sua extensão</font><br><a "
 "target='_blank' href='https://pt.wikiversity.org/wiki/WikiConecta'>https://"
 "pt.wikiversity.org/wiki/WikiConecta</a>"
 
@@ -631,7 +656,7 @@ msgid "WikiConecta's certificates"
 msgstr "Certificados do WikiConecta's"
 
 #: templates/certificate/manage_certificates.html:14
-#: templates/user_profile/participants.html:21
+#: templates/user_profile/participants.html:23
 msgid "Enrolled at"
 msgstr "Matrícula"
 
@@ -641,7 +666,7 @@ msgstr "Matrícula"
 #: templates/education_program/list_education_programs_by_professor.html:18
 #: templates/education_program/update_education_program.html:84
 #: templates/education_program/update_education_program.html:129
-#: templates/user_profile/participants.html:22
+#: templates/user_profile/participants.html:24
 msgid "Username"
 msgstr "Nome de usuário(a)"
 
@@ -658,7 +683,7 @@ msgid "Send message"
 msgstr "Enviar mensagem"
 
 #: templates/certificate/manage_certificates.html:25
-#: templates/user_profile/participants.html:30
+#: templates/user_profile/participants.html:32
 msgid "N.A."
 msgstr "N.A."
 
@@ -1107,12 +1132,12 @@ msgstr "Sobre o curso"
 #: templates/user_profile/index.html:15
 msgid ""
 "The Wikiconecta is an initiative from <a target=\"_blank\" href=\"https://"
-"meta.wikimedia.org/wiki/Wikimedia_Brasil/pt-br\" aria-"
-"label=\"Wikimedia Brasil's page\">Wiki Movement Brazil</a>."
+"meta.wikimedia.org/wiki/Wikimedia_Brasil/pt-br\" aria-label=\"Wikimedia "
+"Brasil's page\">Wiki Movement Brazil</a>."
 msgstr ""
-"O WikiConecta é uma realização do <a target=\"_blank\" href=\"https://meta."
-"wikimedia.org/wiki/Wikimedia_Brasil/pt-br\" aria-"
-"label=\"página do Wikimedia Brasil\">Wikimedia Brasil</a>."
+"O WikiConecta é uma realização do <a target=\"_blank\" href=\"https://"
+"meta.wikimedia.org/wiki/Wikimedia_Brasil/pt-br\" aria-label=\"página do "
+"Wikimedia Brasil\">Wikimedia Brasil</a>."
 
 #: templates/user_profile/index.html:16
 msgid ""
@@ -1174,29 +1199,31 @@ msgstr ""
 msgid "WikiConecta's dashboard participants"
 msgstr "Participantes do dashboard do WikiConecta"
 
-#: templates/user_profile/participants.html:10
-msgid "Update list"
-msgstr "Atualizar lista"
-
-#: templates/user_profile/participants.html:12
+#: templates/user_profile/participants.html:11
 msgid "All"
 msgstr "Todos"
 
-#: templates/user_profile/participants.html:23
+#: templates/user_profile/participants.html:17
+msgid "Update list"
+msgstr "Atualizar lista"
+
+#: templates/user_profile/participants.html:25
 msgid "Registered here"
 msgstr "Cadastrado aqui"
 
-#: templates/user_profile/participants.html:24
+#: templates/user_profile/participants.html:26
 msgid "Requested certificate"
 msgstr "Pediu certificado"
 
-#: templates/user_profile/participants.html:32
-#: templates/user_profile/participants.html:33
+#: templates/user_profile/participants.html:34
+#: templates/user_profile/participants.html:35
+#: venv/lib/python3.13/site-packages/django/forms/widgets.py:870
 msgid "Yes"
 msgstr "Sim"
 
-#: templates/user_profile/participants.html:32
-#: templates/user_profile/participants.html:33
+#: templates/user_profile/participants.html:34
+#: templates/user_profile/participants.html:35
+#: venv/lib/python3.13/site-packages/django/forms/widgets.py:871
 msgid "No"
 msgstr "Não"
 
@@ -1230,9 +1257,9 @@ msgstr "Está matriculado(a)?"
 
 #: templates/user_profile/profile.html:24
 msgid ""
-"<span class=\"red_fill\">You are not <a target=\"_blank\" href=\"https://pt."
-"wikiversity.org/wiki/WikiConecta/Inscrição\">registered in WikiConecta</a>.</"
-"span>"
+"<span class=\"red_fill\">You are not <a target=\"_blank\" href=\"https://"
+"pt.wikiversity.org/wiki/WikiConecta/Inscrição\">registered in WikiConecta</"
+"a>.</span>"
 msgstr ""
 "<span class=\"red_fill\">Você ainda não está <a target=\"_blank\" "
 "href=\"https://pt.wikiversity.org/wiki/WikiConecta/"
