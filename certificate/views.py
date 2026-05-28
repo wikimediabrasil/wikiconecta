@@ -223,7 +223,7 @@ def generate_enrollment_letter(user_id=None):
     # Text
     #######################################################################################################
     pdf.set_font('Times', '', 13)  # Text of the addressing in Times New Roman, bold, 13 pt
-    pdf.multi_cell(w=0, h=9, border=0, align='J', txt=str(_("""The WikiConecta course (https://w.wiki/7KwX) was developed by Wiki Movimento Brasil, a non-profit organization that works towards free knowledge under CNPJ 29.801.908/0001-86. To complete it, 20 hours of dedication are required, asynchronously and independently, and the course is available on an open online education platform, the Wikiversity.\n\nThe units were developed by Professor Amanda Chevtchouk Jurno, PhD, former Education and Scientific Dissemination Manager at Wiki Movimento Brasil, with scientific guidance from Professor João Alexandre Peschanski, PhD, Executive Director of Wiki Movimento Brasil. In order to adapt the content to the expectations of the Wikimedia Movement and ensure that it covered the information necessary to introduce educators to this universe, the course had strategic guidance from senior members of the Movement working in the area of Education in various regions of the world.\n\nThe objective of the course is to present in a condensed form the information that educators need to start using the Wikimedia projects with their students, especially in university extension. At the end of the course, participants should be able to basic edit four Wikimedia projects - Wikipedia, Wikidata, Wikimedia Commons and Wikiversity - and develop their own wiki-education programs, aiming to comply with Brazilian university extension guidelines.""")),)
+    pdf.multi_cell(w=0, h=9, border=0, align='J', txt=str(_("""The WikiConecta course (https://w.wiki/7KwX) was developed by Wikimedia Brasil, a non-profit organization that works towards free knowledge under CNPJ 29.801.908/0001-86. To complete it, 20 hours of dedication are required, asynchronously and independently, and the course is available on an open online education platform, the Wikiversity.\n\nThe units were developed by Professor Amanda Chevtchouk Jurno, PhD, former Education and Scientific Dissemination Manager at Wikimedia Brasil, with scientific guidance from Professor João Alexandre Peschanski, PhD, Executive Director of Wikimedia Brasil. In order to adapt the content to the expectations of the Wikimedia Movement and ensure that it covered the information necessary to introduce educators to this universe, the course had strategic guidance from senior members of the Movement working in the area of Education in various regions of the world.\n\nThe objective of the course is to present in a condensed form the information that educators need to start using the Wikimedia projects with their students, especially in university extension. At the end of the course, participants should be able to basic edit four Wikimedia projects - Wikipedia, Wikidata, Wikimedia Commons and Wikiversity - and develop their own wiki-education programs, aiming to comply with Brazilian university extension guidelines.""")),)
 
     pdf.add_page()
     pdf.set_xy(30, 30)
@@ -322,7 +322,7 @@ def generate_enrollment_letter(user_id=None):
     pdf.multi_cell(w=80, h=9, border=0, align='C', txt=str(_("_________________________________\nALEXANDER MAXIMILIAN HILSENBECK FILHO\nCoordinator\nWikiConecta")),)
     pdf.set_xy(110, 230)
     pdf.image(os.path.join(settings.STATIC_ROOT, 'images/jap.png'), x=140.5, y=227, w=18, h=16)
-    pdf.multi_cell(w=80, h=9, border=0, align='C', txt=str(_("_________________________________\nJOÃO ALEXANDRE PESCHANSKI\nExecutive Director\nWiki Movimento Brasil")),)
+    pdf.multi_cell(w=80, h=9, border=0, align='C', txt=str(_("_________________________________\nJOÃO ALEXANDRE PESCHANSKI\nExecutive Director\nWikimedia Brasil")),)
 
     # Generate the file
     file = pdf.output(dest='S').encode('latin-1')
@@ -421,12 +421,12 @@ def generate_certificate(user_id=None):
     # João Alexandre Peschanski's signature
     pdf.set_xy(155, 131)
     pdf.multi_cell(w=80, h=5, border=0, align='C', txt=str(
-        _("_________________________________\nJOÃO ALEXANDRE PESCHANSKI\nExecutive Director\nWiki Movimento Brasil")), )
+        _("_________________________________\nJOÃO ALEXANDRE PESCHANSKI\nExecutive Director\nWikimedia Brasil")), )
     pdf.image(os.path.join(settings.STATIC_ROOT, 'images/jap.png'), x=186, y=125, w=18, h=16)
 
     # Text
     pdf.set_xy(50, 166)
-    pdf.multi_cell(w=197, h=5, border=0, align='C', txt=str(_('''The WikiConecta course does not have record control, readings and tasks are freely accessible.\nThis certificate is therefore not recognized as an official diploma. The course totals twenty hours.''')))
+    pdf.multi_cell(w=197, h=5, border=0, align='C', txt=str(_('''WikiConecta is a free access course with a workload of 20 hours to complete readings and activities.\nThis certificate is not recognized as an official diploma.''')))
 
     # Generate the file
     file = pdf.output(dest='S').encode('latin-1')
