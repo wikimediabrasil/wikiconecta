@@ -155,7 +155,7 @@ def enrollment_letter(request):
     return generate_enrollment_letter(user_id)
 
 
-def set_language_if_ptbr(language):
+def set_language_if_ptbr():
     language = get_language()
     # Setting the language to portuguese for the date
     if language == "pt-br":
