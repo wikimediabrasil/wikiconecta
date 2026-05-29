@@ -360,17 +360,15 @@ msgstr ""
 "Coordenador\n"
 "WikiConecta"
 
-#: .\certificate\views.py:429
+#: certificate/views.py:429
 msgid ""
-"The WikiConecta course does not have record control, readings and tasks are "
-"freely accessible.\n"
-"This certificate is therefore not recognized as an official diploma. The "
-"course totals twenty hours."
+"WikiConecta is a free access course with a workload of 20 hours to complete "
+"readings and activities.\n"
+"This certificate is not recognized as an official diploma."
 msgstr ""
-"O curso WikiConecta não tem um controle de registros, as leituras e "
-"atividades sãode acesso livre.\n"
-"Este certificado, portanto, não é reconhecido como um diploma oficial.\n"
-"O curso totaliza para sua realização vinte horas."
+"O WikiConecta é um curso de acesso livre com uma carga de 20 horas para "
+"realização das leituras e atividades.\n"
+"Este certificado não é reconhecido como diploma oficial."
 
 #: .\certificate\views.py:450
 #, python-brace-format
