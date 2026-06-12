@@ -155,11 +155,11 @@ def enrollment_letter(request):
     return generate_enrollment_letter(user_id)
 
 
-def set_language_if_ptbr(language):
+def set_language_if_ptbr():
+    language = get_language()
+    # Setting the language to portuguese for the date
     if language == "pt-br":
-        return "pt_BR"
-    else:
-        return language
+        locale.setlocale(locale.LC_TIME, "pt_BR")
 
 
 def generate_enrollment_letter(user_id=None):
@@ -198,7 +198,7 @@ def generate_enrollment_letter(user_id=None):
 
     pdf.set_font('Times', '', 13)  # Text of the body in Times New Roman, regular, 13 pt
 
-    locale.setlocale(locale.LC_TIME, set_language_if_ptbr(get_language()))
+    set_language_if_ptbr()
     pdf.cell(w=150, h=9, border=0, ln=1, align='L', txt=str(_('São Paulo, ')) + datetime.now().strftime(str(_("%B %d, %Y"))))
 
     pdf.cell(w=0, h=9, ln=1)  # New line
@@ -360,7 +360,7 @@ def generate_certificate(user_id=None):
     pdf.add_font(family='Baloo2-Bold', fname=os.path.join(settings.STATIC_ROOT, 'fonts/Baloo2-Bold.ttf'), uni=True)
     pdf.set_font(family='Baloo2-Regular', size=37)  # Text of the body in Times New Roman, regular, 13 pt
 
-    locale.setlocale(locale.LC_TIME, set_language_if_ptbr(get_language()))  # Setting the language to portuguese for the date
+    set_language_if_ptbr()
     pdf.cell(w=0, h=10, border=0, ln=1, align='C', txt=str(_('CERTIFICATE')))
 
     pdf.set_y(36)
@@ -426,7 +426,7 @@ def generate_certificate(user_id=None):
 
     # Text
     pdf.set_xy(50, 166)
-    pdf.multi_cell(w=197, h=5, border=0, align='C', txt=str(_('''The WikiConecta course does not have record control, readings and tasks are freely accessible.\nThis certificate is therefore not recognized as an official diploma. The course totals twenty hours.''')))
+    pdf.multi_cell(w=197, h=5, border=0, align='C', txt=str(_('''WikiConecta is a free access course with a workload of 20 hours to complete readings and activities.\nThis certificate is not recognized as an official diploma.''')))
 
     # Generate the file
     file = pdf.output(dest='S').encode('latin-1')

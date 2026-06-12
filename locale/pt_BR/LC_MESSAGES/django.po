@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-19 03:49-0300\n"
+"POT-Creation-Date: 2026-05-28 21:33-0300\n"
 "PO-Revision-Date: 2023-09-22 21:54+0300\n"
 "Last-Translator: Éder Porto <eder.porto@wmnobrasil.org>\n"
 "Language: pt-br\n"
@@ -17,68 +17,67 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: .\certificate\models.py:9
+#: certificate/models.py:9
 msgid "Module name"
 msgstr "Nome do módulo"
 
-#: .\certificate\models.py:10
+#: certificate/models.py:10
 msgid "Order of the module"
 msgstr "Ordem do módulo"
 
-#: .\certificate\models.py:17
-#: .\templates\certificate\manage_certificates.html:30
+#: certificate/models.py:17 templates/certificate/manage_certificates.html:30
 msgid "Activity link"
 msgstr "Link da atividade"
 
-#: .\certificate\models.py:25
+#: certificate/models.py:25
 #, python-format
 msgid "Activity %(order)s of %(user)s"
 msgstr "Atividade nº %(order)s de %(user)s"
 
-#: .\certificate\models.py:30
+#: certificate/models.py:30
 msgid "Enrollment"
 msgstr "Matrícula"
 
-#: .\certificate\models.py:31 .\templates\navbar.html:68
+#: certificate/models.py:31 templates/navbar.html:68
 msgid "Certificate"
 msgstr "Certificado"
 
-#: .\certificate\views.py:117 .\certificate\views.py:331
+#: certificate/views.py:117 certificate/views.py:331
 #, python-brace-format
 msgid "attachment; filename=WikiConecta - Enrollment - {name}.pdf"
 msgstr "attachment; filename=WikiConecta - Matrícula - {name}.pdf"
 
-#: .\certificate\views.py:121
+#: certificate/views.py:121
 #, python-brace-format
 msgid ""
 "attachment; filename=WikiConecta - Certificate of Completion - {name}.pdf"
 msgstr ""
 "attachment; filename=WikiConecta - Certificado de Conclusão - {name}.pdf"
 
-#: .\certificate\views.py:138 .\certificate\views.py:149
+#: certificate/views.py:138 certificate/views.py:149
 #, python-brace-format
 msgid ""
-"The validity of this document can be checked at https://wikiconecta."
-"toolforge.org/\n"
+"The validity of this document can be checked at https://"
+"wikiconecta.toolforge.org/\n"
 "The validation code is: {code}"
 msgstr ""
-"A veracidade deste documento pode ser verificada em https://wikiconecta."
-"toolforge.org/\n"
+"A veracidade deste documento pode ser verificada em https://"
+"wikiconecta.toolforge.org/\n"
 "O código de validação é: {code}"
 
-#: .\certificate\views.py:202
+#: certificate/views.py:202
 msgid "São Paulo, "
 msgstr "São Paulo, "
 
-#: .\certificate\views.py:202
+#: certificate/views.py:202
 msgid "%B %d, %Y"
 msgstr "%d de %B de %Y"
 
-#: .\certificate\views.py:210
+#: certificate/views.py:210
 msgid "To whom it may concern"
 msgstr "A quem possa interessar"
 
-#: .\certificate\views.py:226
+#: certificate/views.py:226
 msgid ""
 "The WikiConecta course (https://w.wiki/7KwX) was developed by Wikimedia "
 "Brasil, a non-profit organization that works towards free knowledge under "
@@ -104,20 +103,19 @@ msgid ""
 "extension guidelines."
 msgstr ""
 "O curso WikiConecta (https://w.wiki/7KwX) foi desenvolvido pela Wikimedia "
-"Brasil, organização sem fins lucrativos que trabalha em prol do "
-"conhecimento livre sob o CNPJ 29.801.908/0001-86. Para realizá-lo são "
-"necessárias 20 horas de dedicação, de forma assíncrona e independente, e o "
-"curso está disponível em uma plataforma de educação aberta online, a "
-"Wikiversidade.\n"
+"Brasil, organização sem fins lucrativos que trabalha em prol do conhecimento "
+"livre sob o CNPJ 29.801.908/0001-86. Para realizá-lo são necessárias 20 "
+"horas de dedicação, de forma assíncrona e independente, e o curso está "
+"disponível em uma plataforma de educação aberta online, a Wikiversidade.\n"
 "\n"
 "As unidades foram desenvolvidas pela Professora Doutora Amanda Chevtchouk "
-"Jurno, ex-gestora de Educação e Difusão Científica da Wikimedia Brasil, "
-"com orientação científica do Professor Doutor João Alexandre Peschanski, "
-"Diretor Executivo da Wikimedia Brasil. A fim de adequar o conteúdo às "
-"expectativas do Movimento Wikimedia e garantir que este cobrisse as "
-"informações necessárias para a introdução dos educadores neste universo, o "
-"curso teve orientação estratégica de membros sêniores do Movimento atuantes "
-"na área de Educação em várias regiões do mundo.\n"
+"Jurno, ex-gestora de Educação e Difusão Científica da Wikimedia Brasil, com "
+"orientação científica do Professor Doutor João Alexandre Peschanski, Diretor "
+"Executivo da Wikimedia Brasil. A fim de adequar o conteúdo às expectativas "
+"do Movimento Wikimedia e garantir que este cobrisse as informações "
+"necessárias para a introdução dos educadores neste universo, o curso teve "
+"orientação estratégica de membros sêniores do Movimento atuantes na área de "
+"Educação em várias regiões do mundo.\n"
 "\n"
 "O objetivo do curso é apresentar de forma condensada as informações que "
 "educadores precisam para começar a usar os projetos Wikimedia com seus "
@@ -127,7 +125,7 @@ msgstr ""
 "e desenvolver seus próprios programas de wiki-educação, visando cumprir as "
 "diretrizes da extensão universitária brasileira."
 
-#: .\certificate\views.py:230
+#: certificate/views.py:230
 msgid ""
 "The WikiConecta is divided into six modules, each one divided into several "
 "units:"
@@ -135,155 +133,155 @@ msgstr ""
 "O WikiConecta é dividido em seis módulos, cada qual subdividido em várias "
 "unidades:"
 
-#: .\certificate\views.py:232
+#: certificate/views.py:232
 msgid "Module 1: Introduction"
 msgstr "Módulo 1: Introdução"
 
-#: .\certificate\views.py:235
+#: certificate/views.py:235
 msgid ""
 "Free Knowledge: potentials and advantages of using the Wikimedia Projects"
 msgstr ""
 "Conhecimento livre: potenciais e vantagens de usar os projetos Wikimedia"
 
-#: .\certificate\views.py:237
+#: certificate/views.py:237
 msgid "The Wikimedia Projects and Organizations"
 msgstr "Projetos e Organizações Wikimedia"
 
-#: .\certificate\views.py:239
+#: certificate/views.py:239
 msgid "Collective ntelligence and open data"
 msgstr "Inteligência coletiva e dados abertos"
 
-#: .\certificate\views.py:241
+#: certificate/views.py:241
 msgid "Wikimedia programs, initiatives and events"
 msgstr "Programas, iniciativas e eventos Wikimedia"
 
-#: .\certificate\views.py:243
+#: certificate/views.py:243
 msgid "Module 2: Wikipedia"
 msgstr "Módulo 2: A Wikipédia"
 
-#: .\certificate\views.py:246
+#: certificate/views.py:246
 msgid "Wikipedia as an educational resource"
 msgstr "A Wikipédia como recurso educacional"
 
-#: .\certificate\views.py:248
+#: certificate/views.py:248
 msgid "Diffusion and scientific dissemination on Wikipedia"
 msgstr "Difusão e divulgação científica na Wikipédia"
 
-#: .\certificate\views.py:250
+#: certificate/views.py:250
 msgid "Content and equity gaps"
 msgstr "Lacunas de conteúdo e equidade"
 
-#: .\certificate\views.py:252
+#: certificate/views.py:252
 msgid "Principles and foundations of Wikipedia"
 msgstr "Princípios e fundamentos da Wikipédia"
 
-#: .\certificate\views.py:254
+#: certificate/views.py:254
 msgid "Entries and arrangement of information"
 msgstr "Os verbetes e a disposição das informações"
 
-#: .\certificate\views.py:256
+#: certificate/views.py:256
 msgid "Editing Wikipedia"
 msgstr "Editando a Wikipédia"
 
-#: .\certificate\views.py:258
+#: certificate/views.py:258
 msgid "Using Wikipedia with students"
 msgstr "Utilizando a Wikipédia com estudantes"
 
-#: .\certificate\views.py:260
+#: certificate/views.py:260
 msgid "Module 3: Wikidata"
 msgstr "Módulo 3: O Wikidata"
 
-#: .\certificate\views.py:263
+#: certificate/views.py:263
 msgid "The Wikimedia structured database"
 msgstr "O banco de dados estruturados da Wikimedia"
 
-#: .\certificate\views.py:265
+#: certificate/views.py:265
 msgid "Getting data: Wikidata Query Service and Scholia"
 msgstr "Obtendo dados: Wikidata Query Service e Scholia"
 
-#: .\certificate\views.py:267
+#: certificate/views.py:267
 msgid "Entering data: how to use Zotero"
 msgstr "Inserindo dados: como usar o Zotero"
 
-#: .\certificate\views.py:269
+#: certificate/views.py:269
 msgid "Bias and subjectivity in data"
 msgstr "Viés e subjetividade nos dados"
 
-#: .\certificate\views.py:271
+#: certificate/views.py:271
 msgid "Editing Wikidata"
 msgstr "Editando o Wikidata"
 
-#: .\certificate\views.py:273
+#: certificate/views.py:273
 msgid "Using Wikidata with students"
 msgstr "Utilizando o Wikidata com estudantes"
 
-#: .\certificate\views.py:275
+#: certificate/views.py:275
 msgid "Module 4: Wikimedia Commons"
 msgstr "Módulo 4: O Wikimedia Commons"
 
-#: .\certificate\views.py:278
+#: certificate/views.py:278
 msgid "Wikimedia audiovisual repository"
 msgstr "Repositório audiovisual da Wikimedia"
 
-#: .\certificate\views.py:280
+#: certificate/views.py:280
 msgid "Creative commons and free licenses"
 msgstr "Creative commons e licenças livres"
 
-#: .\certificate\views.py:282
+#: certificate/views.py:282
 msgid "How to use Wikimedia Commons"
 msgstr "Como usar o Wikimedia Commons"
 
-#: .\certificate\views.py:284
+#: certificate/views.py:284
 msgid "File upload"
 msgstr "Carregamento de arquivos"
 
-#: .\certificate\views.py:286
+#: certificate/views.py:286
 msgid "Using Wikimedia Commons with students"
 msgstr "Utilizando o Wikimedia Commons com estudantes"
 
-#: .\certificate\views.py:290
+#: certificate/views.py:290
 msgid "Module 5: Wikiversity"
 msgstr "Módulo 5: A Wikiversidade"
 
-#: .\certificate\views.py:293
+#: certificate/views.py:293
 msgid "Wikiversity - the free university"
 msgstr "Wikiversidade - a universidade livre"
 
-#: .\certificate\views.py:295
+#: certificate/views.py:295
 msgid ""
 "Open Educational Resources (OER) and Massive Open Online Courses (MOOCs)"
 msgstr ""
 "Recursos Educacionais Abertos (REA) e Massive Open Online Courses (MOOCs)"
 
-#: .\certificate\views.py:297
+#: certificate/views.py:297
 msgid "Editing the Wikiversity"
 msgstr "Editando a Wikiversidade"
 
-#: .\certificate\views.py:299
+#: certificate/views.py:299
 msgid "Using Wikiversity with students"
 msgstr "Utilizando a Wikiversidade com estudantes"
 
-#: .\certificate\views.py:301
+#: certificate/views.py:301
 msgid "Module 6: Education programs"
 msgstr "Módulo 6: Programas de educação"
 
-#: .\certificate\views.py:304
+#: certificate/views.py:304
 msgid "Creating an education program with Wiki"
 msgstr "Criando um programa de educação com a Wiki"
 
-#: .\certificate\views.py:306
+#: certificate/views.py:306
 msgid "Program monitoring: Dashboard"
 msgstr "Acompanhamento de programas: Dashboard"
 
-#: .\certificate\views.py:308
+#: certificate/views.py:308
 msgid "Potential financiers"
 msgstr "Potenciais financiadores"
 
-#: .\certificate\views.py:310
+#: certificate/views.py:310
 msgid "Wikimedia and Education in Brazil"
 msgstr "Wikimedia e Educação no Brasil"
 
-#: .\certificate\views.py:312
+#: certificate/views.py:312
 #, python-brace-format
 msgid ""
 "The course is free and the control of activities is carried out by resources "
@@ -308,7 +306,7 @@ msgstr ""
 "\n"
 "Atenciosamente,"
 
-#: .\certificate\views.py:322
+#: certificate/views.py:322
 msgid ""
 "_________________________________\n"
 "ALEXANDER MAXIMILIAN HILSENBECK FILHO\n"
@@ -320,7 +318,7 @@ msgstr ""
 "Coordenador\n"
 "WikiConecta"
 
-#: .\certificate\views.py:325 .\certificate\views.py:424
+#: certificate/views.py:325 certificate/views.py:424
 msgid ""
 "_________________________________\n"
 "JOÃO ALEXANDRE PESCHANSKI\n"
@@ -332,23 +330,23 @@ msgstr ""
 "Diretor Executivo\n"
 "Wikimedia Brasil"
 
-#: .\certificate\views.py:364
+#: certificate/views.py:364
 msgid "CERTIFICATE"
 msgstr "CERTIFICADO"
 
-#: .\certificate\views.py:368
+#: certificate/views.py:368
 msgid "We grant this certificate to"
 msgstr "Nós concedemos este certificado a"
 
-#: .\certificate\views.py:402
+#: certificate/views.py:402
 msgid "for completing the readings and tasks of the online course"
 msgstr "por ter completado as leituras e atividades do curso online"
 
-#: .\certificate\views.py:409
+#: certificate/views.py:409
 msgid "Initiative:"
 msgstr "Iniciativa"
 
-#: .\certificate\views.py:418
+#: certificate/views.py:418
 msgid ""
 "_______________________________________\n"
 "ALEXANDER MAXIMILIAN HILSENBECK FILHO\n"
@@ -360,19 +358,17 @@ msgstr ""
 "Coordenador\n"
 "WikiConecta"
 
-#: .\certificate\views.py:429
+#: certificate/views.py:429
 msgid ""
-"The WikiConecta course does not have record control, readings and tasks are "
-"freely accessible.\n"
-"This certificate is therefore not recognized as an official diploma. The "
-"course totals twenty hours."
+"WikiConecta is a free access course with a workload of 20 hours to complete "
+"readings and activities.\n"
+"This certificate is not recognized as an official diploma."
 msgstr ""
-"O curso WikiConecta não tem um controle de registros, as leituras e "
-"atividades sãode acesso livre.\n"
-"Este certificado, portanto, não é reconhecido como um diploma oficial.\n"
-"O curso totaliza para sua realização vinte horas."
+"O WikiConecta é um curso de acesso livre com uma carga de 20 horas para "
+"realização das leituras e atividades.\n"
+"Este certificado não é reconhecido como diploma oficial."
 
-#: .\certificate\views.py:450
+#: certificate/views.py:450
 #, python-brace-format
 msgid ""
 "Dear {name},<br><br>We hope this message finds you well. We want to inform "
@@ -383,7 +379,7 @@ msgstr ""
 "Queremos te informar sobre o status da sua participação no curso online "
 "<b>WikiConecta</b>."
 
-#: .\certificate\views.py:451
+#: certificate/views.py:451
 msgid ""
 "After a thorough review of your assessments of the course, we noticed that "
 "you've encountered some challenges with specific assignments or assessments. "
@@ -410,7 +406,7 @@ msgstr ""
 "ou preocupação sobre eles ou sobre nossa avaliação, não hesite em contactar "
 "os organizadores do curso.<br><br><b>Lista de módulos</b>"
 
-#: .\certificate\views.py:452
+#: certificate/views.py:452
 msgid ""
 "In name of <b><i>Wikimedia Brasil</i></b>, we are excited to inform you that "
 "your <b>Certificate of Completion</b> for the WikiConecta online course is "
@@ -420,61 +416,60 @@ msgid ""
 "WikiConecta and your commitment to contribute in building the Free Knowledge "
 "ecosystem<br><br>Attached you will find your certificate."
 msgstr ""
-"Em nome da <b><i>Wikimedia Brasil</i></b> estamos felizes "
-"em lhe informar que seu <b>Certificado de Conclusão</b> do curso online "
-"WikiConecta agora está pronto para download e verificação.<br><br>Você "
-"concluiu com êxito todas as tarefas exigidas, demonstrando sua dedicação e "
-"comprometimento com o aprendizado. Seu certificado serve como um testamentoà "
-"sua conquista no WikiConecta e ao seu compromisso em contribuir construindo "
-"o ecossistema do Conhecimento Livre<br><br>Em anexo você encontrará seu "
-"certificado."
+"Em nome da <b><i>Wikimedia Brasil</i></b> estamos felizes em lhe informar "
+"que seu <b>Certificado de Conclusão</b> do curso online WikiConecta agora "
+"está pronto para download e verificação.<br><br>Você concluiu com êxito "
+"todas as tarefas exigidas, demonstrando sua dedicação e comprometimento com "
+"o aprendizado. Seu certificado serve como um testamentoà sua conquista no "
+"WikiConecta e ao seu compromisso em contribuir construindo o ecossistema do "
+"Conhecimento Livre<br><br>Em anexo você encontrará seu certificado."
 
-#: .\certificate\views.py:453 .\certificate\views.py:516
+#: certificate/views.py:453 certificate/views.py:516
 msgid ""
-"<font style='color:#4A51D2; font-weight:bold; font-style:"
-"italic;'>WikiConecta: Wikipedia in all its extension</font><br><a "
+"<font style='color:#4A51D2; font-weight:bold; font-"
+"style:italic;'>WikiConecta: Wikipedia in all its extension</font><br><a "
 "target='_blank' href='https://pt.wikiversity.org/wiki/WikiConecta'>https://"
 "pt.wikiversity.org/wiki/WikiConecta</a>"
 msgstr ""
-"<font style='color:#4A51D2; font-weight:bold; font-style:"
-"italic;'>WikiConecta: A Wikipédia em toda a sua extensão</font><br><a "
+"<font style='color:#4A51D2; font-weight:bold; font-"
+"style:italic;'>WikiConecta: A Wikipédia em toda a sua extensão</font><br><a "
 "target='_blank' href='https://pt.wikiversity.org/wiki/WikiConecta'>https://"
 "pt.wikiversity.org/wiki/WikiConecta</a>"
 
-#: .\certificate\views.py:454
+#: certificate/views.py:454
 msgid "<li><i>Module 1 - Introduction</i></li>"
 msgstr "<li><i>Módulo 1 - Introdução</i></li>"
 
-#: .\certificate\views.py:455
+#: certificate/views.py:455
 msgid "<li><i>Module 2 - Wikipedia</i></li>"
 msgstr "<li><i>Módulo 2 - A Wikipédia</i></li>"
 
-#: .\certificate\views.py:456
+#: certificate/views.py:456
 msgid "<li><i>Module 3 - Wikidata</i></li>"
 msgstr "<li><i>Módulo 3 - O Wikidata</i></li>"
 
-#: .\certificate\views.py:457
+#: certificate/views.py:457
 msgid "<li><i>Module 4 - Wikimedia Commons</i></li>"
 msgstr "<li><i>Módulo 4 - O Wikimedia Commons</i></li>"
 
-#: .\certificate\views.py:458
+#: certificate/views.py:458
 msgid "<li><i>Module 5 - Wikiversity</i></li>"
 msgstr "<li><i>Módulo 5 - A Wikiversidade</i></li>"
 
-#: .\certificate\views.py:459
+#: certificate/views.py:459
 msgid "<li><i>Module 6 - Education programs</i></li>"
 msgstr "<li><i>Módulo 6 - Programas de educação</i></li>"
 
-#: .\certificate\views.py:488 .\certificate\views.py:532
+#: certificate/views.py:488 certificate/views.py:532
 msgid "WikiConecta - Certificate of Completion request"
 msgstr "WikiConecta - Requisição de Certificado de Conclusão"
 
-#: .\certificate\views.py:498
+#: certificate/views.py:498
 #, python-brace-format
 msgid "WikiConecta - Certificate of Completion - {name}.pdf"
 msgstr "WikiConecta - Certificado de Conclusão - {name}.pdf"
 
-#: .\certificate\views.py:514
+#: certificate/views.py:514
 #, python-brace-format
 msgid ""
 "Dear coordinators,<br><br>The participant <b>{name} (User:{username})</b> of "
@@ -487,7 +482,7 @@ msgstr ""
 "você revise suas atividades e, se corretas, lhe envie o certificado de "
 "conclusão do curso."
 
-#: .\certificate\views.py:515
+#: certificate/views.py:515
 msgid ""
 "You can find this and other participants with pending evaluations at https://"
 "wikiconecta.toolforge.org/manage_certificates."
@@ -495,217 +490,216 @@ msgstr ""
 "Você pode encontrar este(a) e outros participates com avaliações pendentes "
 "em https://wikiconecta.toolforge.org/manage_certificates."
 
-#: .\education_program\models.py:9
-#: .\templates\education_program\update_institution.html:26
+#: education_program/models.py:9
+#: templates/education_program/update_institution.html:26
 msgid "Institution or University name"
 msgstr "Nome da Instituição ou da Universidade"
 
-#: .\education_program\models.py:10
-#: .\templates\education_program\add_education_program.html:35
-#: .\templates\education_program\add_education_program.html:143
-#: .\templates\education_program\update_education_program.html:38
-#: .\templates\education_program\update_education_program.html:149
-#: .\templates\education_program\update_institution.html:28
+#: education_program/models.py:10
+#: templates/education_program/add_education_program.html:35
+#: templates/education_program/add_education_program.html:143
+#: templates/education_program/update_education_program.html:38
+#: templates/education_program/update_education_program.html:149
+#: templates/education_program/update_institution.html:28
 msgid "Postal code"
 msgstr "Código postal"
 
-#: .\education_program\models.py:11
-#: .\templates\education_program\update_institution.html:30
+#: education_program/models.py:11
+#: templates/education_program/update_institution.html:30
 msgid "State"
 msgstr "Estado"
 
-#: .\education_program\models.py:12
-#: .\templates\education_program\update_institution.html:62
+#: education_program/models.py:12
+#: templates/education_program/update_institution.html:62
 msgid "City"
 msgstr "Cidade"
 
-#: .\education_program\models.py:13
-#: .\templates\education_program\update_institution.html:64
+#: education_program/models.py:13
+#: templates/education_program/update_institution.html:64
 msgid "Latitude"
 msgstr "Latitude"
 
-#: .\education_program\models.py:14
-#: .\templates\education_program\update_institution.html:66
+#: education_program/models.py:14
+#: templates/education_program/update_institution.html:66
 msgid "Longitude"
 msgstr "Longitude"
 
-#: .\education_program\models.py:24
-#: .\templates\certificate\manage_certificates.html:16
+#: education_program/models.py:24
+#: templates/certificate/manage_certificates.html:16
 msgid "Name"
 msgstr "Nome"
 
-#: .\education_program\models.py:25
+#: education_program/models.py:25
 msgid "Wikimedia username"
 msgstr "Nome de usuário(a)"
 
-#: .\education_program\models.py:36
-#: .\templates\education_program\add_education_program.html:58
-#: .\templates\education_program\update_education_program.html:61
+#: education_program/models.py:36
+#: templates/education_program/add_education_program.html:58
+#: templates/education_program/update_education_program.html:61
 msgid "In person"
 msgstr "Presencial"
 
-#: .\education_program\models.py:37
-#: .\templates\education_program\add_education_program.html:62
-#: .\templates\education_program\update_education_program.html:65
+#: education_program/models.py:37
+#: templates/education_program/add_education_program.html:62
+#: templates/education_program/update_education_program.html:65
 msgid "Hybrid"
 msgstr "Híbrido"
 
-#: .\education_program\models.py:38
-#: .\templates\education_program\add_education_program.html:66
-#: .\templates\education_program\update_education_program.html:69
+#: education_program/models.py:38
+#: templates/education_program/add_education_program.html:66
+#: templates/education_program/update_education_program.html:69
 msgid "Online"
 msgstr "Online"
 
-#: .\education_program\models.py:40
-#: .\templates\education_program\add_education_program.html:26
-#: .\templates\education_program\update_education_program.html:26
+#: education_program/models.py:40
+#: templates/education_program/add_education_program.html:26
+#: templates/education_program/update_education_program.html:26
 msgid "Course name"
 msgstr "Nome do curso"
 
-#: .\education_program\models.py:41
-#: .\templates\education_program\add_education_program.html:48
-#: .\templates\education_program\list_education_programs.html:33
-#: .\templates\education_program\list_education_programs_by_institution.html:37
-#: .\templates\education_program\list_education_programs_by_professor.html:32
-#: .\templates\education_program\update_education_program.html:51
+#: education_program/models.py:41
+#: templates/education_program/add_education_program.html:48
+#: templates/education_program/list_education_programs.html:33
+#: templates/education_program/list_education_programs_by_institution.html:37
+#: templates/education_program/list_education_programs_by_professor.html:32
+#: templates/education_program/update_education_program.html:51
 msgid "Start date"
 msgstr "Data de início"
 
-#: .\education_program\models.py:42
-#: .\templates\education_program\add_education_program.html:50
-#: .\templates\education_program\list_education_programs.html:34
-#: .\templates\education_program\list_education_programs_by_institution.html:38
-#: .\templates\education_program\list_education_programs_by_professor.html:33
-#: .\templates\education_program\update_education_program.html:53
+#: education_program/models.py:42
+#: templates/education_program/add_education_program.html:50
+#: templates/education_program/list_education_programs.html:34
+#: templates/education_program/list_education_programs_by_institution.html:38
+#: templates/education_program/list_education_programs_by_professor.html:33
+#: templates/education_program/update_education_program.html:53
 msgid "End date"
 msgstr "Data de encerramento"
 
-#: .\education_program\models.py:43
-#: .\templates\education_program\add_education_program.html:52
-#: .\templates\education_program\update_education_program.html:55
+#: education_program/models.py:43
+#: templates/education_program/add_education_program.html:52
+#: templates/education_program/update_education_program.html:55
 msgid "Link"
 msgstr "Link"
 
-#: .\education_program\models.py:44
-#: .\templates\education_program\add_education_program.html:54
-#: .\templates\education_program\list_education_programs.html:35
-#: .\templates\education_program\list_education_programs_by_institution.html:39
-#: .\templates\education_program\list_education_programs_by_professor.html:34
-#: .\templates\education_program\update_education_program.html:57
+#: education_program/models.py:44
+#: templates/education_program/add_education_program.html:54
+#: templates/education_program/list_education_programs.html:35
+#: templates/education_program/list_education_programs_by_institution.html:39
+#: templates/education_program/list_education_programs_by_professor.html:34
+#: templates/education_program/update_education_program.html:57
 msgid "Course type"
 msgstr "Tipo de curso"
 
-#: .\education_program\models.py:45
-#: .\templates\education_program\add_education_program.html:33
-#: .\templates\education_program\add_education_program.html:142
-#: .\templates\education_program\list_education_programs.html:31
-#: .\templates\education_program\list_education_programs_by_professor.html:31
-#: .\templates\education_program\update_education_program.html:36
-#: .\templates\education_program\update_education_program.html:148
+#: education_program/models.py:45
+#: templates/education_program/add_education_program.html:33
+#: templates/education_program/add_education_program.html:142
+#: templates/education_program/list_education_programs.html:31
+#: templates/education_program/list_education_programs_by_professor.html:31
+#: templates/education_program/update_education_program.html:36
+#: templates/education_program/update_education_program.html:148
 msgid "Institution"
 msgstr "Instituição"
 
-#: .\education_program\models.py:46
-#: .\templates\education_program\add_education_program.html:76
-#: .\templates\education_program\add_education_program.html:122
-#: .\templates\education_program\update_education_program.html:82
-#: .\templates\education_program\update_education_program.html:128
+#: education_program/models.py:46
+#: templates/education_program/add_education_program.html:76
+#: templates/education_program/add_education_program.html:122
+#: templates/education_program/update_education_program.html:82
+#: templates/education_program/update_education_program.html:128
 msgid "Professor"
 msgstr "Professor(a)"
 
-#: .\education_program\models.py:47
+#: education_program/models.py:47
 msgid "Number of students or participants"
 msgstr "Número de estudantes ou participantes"
 
-#: .\education_program\views.py:39 .\education_program\views.py:40
-#: .\education_program\views.py:81 .\education_program\views.py:82
-#: .\education_program\views.py:123 .\education_program\views.py:124
+#: education_program/views.py:39 education_program/views.py:40
+#: education_program/views.py:81 education_program/views.py:82
+#: education_program/views.py:123 education_program/views.py:124
 msgid "Adding or editing education program"
 msgstr "Adicionando ou editando um programa de educação"
 
-#: .\templates\certificate\manage_certificates.html:5
-#: .\templates\navbar.html:53
+#: templates/certificate/manage_certificates.html:5 templates/navbar.html:53
 msgid "Manage certificates"
 msgstr "Gerenciar certificados"
 
-#: .\templates\certificate\manage_certificates.html:9
-#: .\templates\user_profile\certificate.html:9
+#: templates/certificate/manage_certificates.html:9
+#: templates/user_profile/certificate.html:9
 msgid "WikiConecta's certificates"
 msgstr "Certificados do WikiConecta's"
 
-#: .\templates\certificate\manage_certificates.html:14
-#: .\templates\user_profile\participants.html:23
+#: templates/certificate/manage_certificates.html:14
+#: templates/user_profile/participants.html:23
 msgid "Enrolled at"
 msgstr "Matrícula"
 
-#: .\templates\certificate\manage_certificates.html:15
-#: .\templates\education_program\add_education_program.html:78
-#: .\templates\education_program\add_education_program.html:123
-#: .\templates\education_program\list_education_programs_by_professor.html:18
-#: .\templates\education_program\update_education_program.html:84
-#: .\templates\education_program\update_education_program.html:129
-#: .\templates\user_profile\participants.html:24
+#: templates/certificate/manage_certificates.html:15
+#: templates/education_program/add_education_program.html:78
+#: templates/education_program/add_education_program.html:123
+#: templates/education_program/list_education_programs_by_professor.html:18
+#: templates/education_program/update_education_program.html:84
+#: templates/education_program/update_education_program.html:129
+#: templates/user_profile/participants.html:24
 msgid "Username"
 msgstr "Nome de usuário(a)"
 
-#: .\templates\certificate\manage_certificates.html:17
+#: templates/certificate/manage_certificates.html:17
 msgid "Activities"
 msgstr "Atividades"
 
-#: .\templates\certificate\manage_certificates.html:18
+#: templates/certificate/manage_certificates.html:18
 msgid "Mark the activities with problems"
 msgstr "Marque as atividades com problemas"
 
-#: .\templates\certificate\manage_certificates.html:19
+#: templates/certificate/manage_certificates.html:19
 msgid "Send message"
 msgstr "Enviar mensagem"
 
-#: .\templates\certificate\manage_certificates.html:25
-#: .\templates\user_profile\participants.html:32
+#: templates/certificate/manage_certificates.html:25
+#: templates/user_profile/participants.html:32
 msgid "N.A."
 msgstr "N.A."
 
-#: .\templates\certificate\manage_certificates.html:30
+#: templates/certificate/manage_certificates.html:30
 msgid "Activity"
 msgstr "Atividade"
 
-#: .\templates\certificate\manage_certificates.html:37
+#: templates/certificate/manage_certificates.html:37
 msgid "Activity 1"
 msgstr "Atividade nº 1"
 
-#: .\templates\certificate\manage_certificates.html:38
+#: templates/certificate/manage_certificates.html:38
 msgid "Activity 2"
 msgstr "Atividade nº 2"
 
-#: .\templates\certificate\manage_certificates.html:39
+#: templates/certificate/manage_certificates.html:39
 msgid "Activity 3"
 msgstr "Atividade nº 3"
 
-#: .\templates\certificate\manage_certificates.html:40
+#: templates/certificate/manage_certificates.html:40
 msgid "Activity 4"
 msgstr "Atividade nº 4"
 
-#: .\templates\certificate\manage_certificates.html:41
+#: templates/certificate/manage_certificates.html:41
 msgid "Activity 5"
 msgstr "Atividade nº 5"
 
-#: .\templates\certificate\manage_certificates.html:42
+#: templates/certificate/manage_certificates.html:42
 msgid "Activity 6"
 msgstr "Atividade nº 6"
 
-#: .\templates\certificate\manage_certificates.html:45
+#: templates/certificate/manage_certificates.html:45
 msgid "Send Message"
 msgstr "Enviar mensagem"
 
-#: .\templates\certificate\validator.html:5
+#: templates/certificate/validator.html:5
 msgid "Validation"
 msgstr "Validação"
 
-#: .\templates\certificate\validator.html:8
+#: templates/certificate/validator.html:8
 msgid "Document validation"
 msgstr "Validação de documentos"
 
-#: .\templates\certificate\validator.html:10
+#: templates/certificate/validator.html:10
 msgid ""
 "On this page we offer the possibility of checking the authenticity of the "
 "documents issued relating to the WikiConecta course."
@@ -713,329 +707,301 @@ msgstr ""
 "Nesta página oferecemos a possibilidade de verificar a autenticidade dos "
 "documentos emitidos relativos ao curso WikiConecta."
 
-#: .\templates\certificate\validator.html:11
+#: templates/certificate/validator.html:11
 msgid "Type or paste the 40-character VALIDATION CODE below:"
 msgstr "Digite ou cole o CÓDIGO DE VALIDAÇÃO de 40 caracteres abaixo:"
 
-#: .\templates\certificate\validator.html:17 .\templates\navbar.html:46
+#: templates/certificate/validator.html:17 templates/navbar.html:46
 msgid "Validate"
 msgstr "Validação"
 
-#: .\templates\education_program\add_education_program.html:5
-#: .\templates\education_program\add_education_program.html:11
+#: templates/education_program/add_education_program.html:5
+#: templates/education_program/add_education_program.html:11
 msgid "Add an Education Program"
 msgstr "Adicionar um Programa de Educação"
 
-#: .\templates\education_program\add_education_program.html:16
+#: templates/education_program/add_education_program.html:16
 msgid "To insert an Education Program, fill the fields below"
 msgstr "Para inserir um Programa de Educação, preencha os campos abaixo"
 
-#: .\templates\education_program\add_education_program.html:45
-#: .\templates\education_program\update_education_program.html:48
+#: templates/education_program/add_education_program.html:45
+#: templates/education_program/update_education_program.html:48
 msgid "Add more institutions"
 msgstr "Adicionar mais instituições"
 
-#: .\templates\education_program\add_education_program.html:69
-#: .\templates\education_program\list_education_programs.html:36
-#: .\templates\education_program\list_education_programs_by_institution.html:40
-#: .\templates\education_program\list_education_programs_by_professor.html:35
-#: .\templates\education_program\update_education_program.html:72
+#: templates/education_program/add_education_program.html:69
+#: templates/education_program/list_education_programs.html:36
+#: templates/education_program/list_education_programs_by_institution.html:40
+#: templates/education_program/list_education_programs_by_professor.html:35
+#: templates/education_program/update_education_program.html:72
 msgid "Number of students"
 msgstr "Número de estudantes"
 
-#: .\templates\education_program\add_education_program.html:88
-#: .\templates\education_program\update_education_program.html:94
+#: templates/education_program/add_education_program.html:88
+#: templates/education_program/update_education_program.html:94
 msgid "Add more professors"
 msgstr "Adicionar mais professores(as)"
 
-#: .\templates\education_program\add_education_program.html:93
-#: .\templates\education_program\update_education_program.html:99
-#: .\templates\education_program\update_institution.html:70
-#: .\templates\user_profile\profile.html:28
+#: templates/education_program/add_education_program.html:93
+#: templates/education_program/update_education_program.html:99
+#: templates/education_program/update_institution.html:70
+#: templates/user_profile/profile.html:28
 msgid "Update"
 msgstr "Atualizar"
 
-#: .\templates\education_program\list_education_programs.html:5
+#: templates/education_program/list_education_programs.html:5
 msgid "Education Programs"
 msgstr "Programas de Educação"
 
-#: .\templates\education_program\list_education_programs.html:13
+#: templates/education_program/list_education_programs.html:13
 msgid "List of education programs"
 msgstr "Lista de programas de educação"
 
-#: .\templates\education_program\list_education_programs.html:14
-#: .\templates\education_program\list_education_programs_by_professor.html:15
+#: templates/education_program/list_education_programs.html:14
+#: templates/education_program/list_education_programs_by_professor.html:15
 msgid "Education programs by institution"
 msgstr "Programas de educação por instituição"
 
-#: .\templates\education_program\list_education_programs.html:14
-#: .\templates\education_program\list_education_programs_by_professor.html:15
+#: templates/education_program/list_education_programs.html:14
+#: templates/education_program/list_education_programs_by_professor.html:15
 msgid "Click here to see the education programs divided by institution"
 msgstr ""
 "Clique aqui para ver os programas de educação divididos por instituição"
 
-#: .\templates\education_program\list_education_programs.html:15
-#: .\templates\education_program\list_education_programs_by_institution.html:15
+#: templates/education_program/list_education_programs.html:15
+#: templates/education_program/list_education_programs_by_institution.html:15
 msgid "Education programs by professor"
 msgstr "Programas de educação por professor(a)"
 
-#: .\templates\education_program\list_education_programs.html:15
-#: .\templates\education_program\list_education_programs_by_institution.html:15
+#: templates/education_program/list_education_programs.html:15
+#: templates/education_program/list_education_programs_by_institution.html:15
 msgid "Click here to see the education programs divided by professor"
 msgstr ""
 "Clique aqui para ver os programas de educação divididos por professor(a)"
 
-#: .\templates\education_program\list_education_programs.html:18
+#: templates/education_program/list_education_programs.html:18
 msgid "Search"
 msgstr "Pesquisar"
 
-#: .\templates\education_program\list_education_programs.html:29
-#: .\templates\education_program\list_education_programs_by_institution.html:34
-#: .\templates\education_program\list_education_programs_by_professor.html:29
+#: templates/education_program/list_education_programs.html:29
+#: templates/education_program/list_education_programs_by_institution.html:34
+#: templates/education_program/list_education_programs_by_professor.html:29
 msgid "ID"
 msgstr "ID"
 
-#: .\templates\education_program\list_education_programs.html:30
-#: .\templates\education_program\list_education_programs_by_institution.html:35
-#: .\templates\education_program\list_education_programs_by_professor.html:30
+#: templates/education_program/list_education_programs.html:30
+#: templates/education_program/list_education_programs_by_institution.html:35
+#: templates/education_program/list_education_programs_by_professor.html:30
 msgid "Course"
 msgstr "Nome do curso"
 
-#: .\templates\education_program\list_education_programs.html:32
-#: .\templates\education_program\list_education_programs_by_institution.html:36
+#: templates/education_program/list_education_programs.html:32
+#: templates/education_program/list_education_programs_by_institution.html:36
 msgid "Professors"
 msgstr "Professores(as)"
 
-#: .\templates\education_program\list_education_programs_by_institution.html:5
+#: templates/education_program/list_education_programs_by_institution.html:5
 msgid "Education Programs by Institution"
 msgstr "Programas de Educação por Instituição"
 
-#: .\templates\education_program\list_education_programs_by_institution.html:13
+#: templates/education_program/list_education_programs_by_institution.html:13
 msgid "List of education programs by institution"
 msgstr "Lista de programas de educação por instituição"
 
-#: .\templates\education_program\list_education_programs_by_institution.html:14
-#: .\templates\education_program\list_education_programs_by_professor.html:14
+#: templates/education_program/list_education_programs_by_institution.html:14
+#: templates/education_program/list_education_programs_by_professor.html:14
 msgid "Education programs"
 msgstr "Programas de educação"
 
-#: .\templates\education_program\list_education_programs_by_institution.html:14
-#: .\templates\education_program\list_education_programs_by_professor.html:14
+#: templates/education_program/list_education_programs_by_institution.html:14
+#: templates/education_program/list_education_programs_by_professor.html:14
 msgid "Click here to see the general table of education programs"
 msgstr "Clique aqui para ver a tabela geral de programas de educação"
 
-#: .\templates\education_program\list_education_programs_by_institution.html:20
+#: templates/education_program/list_education_programs_by_institution.html:20
 msgid "Coordinates"
 msgstr "Coordenadas"
 
-#: .\templates\education_program\list_education_programs_by_institution.html:23
+#: templates/education_program/list_education_programs_by_institution.html:23
 msgid "No coordinates"
 msgstr "Sem coordenadas"
 
-#: .\templates\education_program\list_education_programs_by_professor.html:5
+#: templates/education_program/list_education_programs_by_professor.html:5
 msgid "Education Programs by Professor"
 msgstr "Programas de Educação por Professor(a)"
 
-#: .\templates\education_program\list_education_programs_by_professor.html:13
+#: templates/education_program/list_education_programs_by_professor.html:13
 msgid "List of education programs by professor"
 msgstr "Lista de programas de educação por professor(a)"
 
-#: .\templates\education_program\update_education_program.html:5
-#: .\templates\education_program\update_education_program.html:11
+#: templates/education_program/update_education_program.html:5
+#: templates/education_program/update_education_program.html:11
 msgid "Update an Education Program"
 msgstr "Modificar um Programa de Educação"
 
-#: .\templates\education_program\update_education_program.html:16
+#: templates/education_program/update_education_program.html:16
 msgid "To update an Education Program, fill the fields below"
 msgstr "Para atualizar um Programa de Educação, preencha os campos abaixo"
 
-#: .\templates\education_program\update_institution.html:5
-#: .\templates\education_program\update_institution.html:11
+#: templates/education_program/update_institution.html:5
+#: templates/education_program/update_institution.html:11
 msgid "Update an Institution"
 msgstr "Atualizar uma instituição"
 
-#: .\templates\education_program\update_institution.html:16
+#: templates/education_program/update_institution.html:16
 msgid "To update an Institution, fill the fields below"
 msgstr "Para atualizar uma Instituição, preencha os campos abaixo"
 
-#: .\templates\education_program\update_institution.html:33
-#: .\wikiconecta\settings_local.py:26
+#: templates/education_program/update_institution.html:33
 msgid "Acre"
 msgstr "Acre"
 
-#: .\templates\education_program\update_institution.html:34
-#: .\wikiconecta\settings_local.py:27
+#: templates/education_program/update_institution.html:34
 msgid "Alagoas"
 msgstr "Alagoas"
 
-#: .\templates\education_program\update_institution.html:35
-#: .\wikiconecta\settings_local.py:28
+#: templates/education_program/update_institution.html:35
 msgid "Amazonas"
 msgstr "Amazonas"
 
-#: .\templates\education_program\update_institution.html:36
-#: .\wikiconecta\settings_local.py:29
+#: templates/education_program/update_institution.html:36
 msgid "Amapá"
 msgstr "Amapá"
 
-#: .\templates\education_program\update_institution.html:37
-#: .\wikiconecta\settings_local.py:30
+#: templates/education_program/update_institution.html:37
 msgid "Bahia"
 msgstr "Bahia"
 
-#: .\templates\education_program\update_institution.html:38
-#: .\wikiconecta\settings_local.py:31
+#: templates/education_program/update_institution.html:38
 msgid "Ceará"
 msgstr "Ceará"
 
-#: .\templates\education_program\update_institution.html:39
-#: .\wikiconecta\settings_local.py:32
+#: templates/education_program/update_institution.html:39
 msgid "Distrito Federal"
 msgstr "Distrito Federal"
 
-#: .\templates\education_program\update_institution.html:40
-#: .\wikiconecta\settings_local.py:33
+#: templates/education_program/update_institution.html:40
 msgid "Espírito Santo"
 msgstr "Espírito Santo"
 
-#: .\templates\education_program\update_institution.html:41
-#: .\wikiconecta\settings_local.py:34
+#: templates/education_program/update_institution.html:41
 msgid "Goiás"
 msgstr "Goiás"
 
-#: .\templates\education_program\update_institution.html:42
-#: .\wikiconecta\settings_local.py:35
+#: templates/education_program/update_institution.html:42
 msgid "Maranhão"
 msgstr "Maranhão"
 
-#: .\templates\education_program\update_institution.html:43
-#: .\wikiconecta\settings_local.py:36
+#: templates/education_program/update_institution.html:43
 msgid "Minas Gerais"
 msgstr "Minas Gerais"
 
-#: .\templates\education_program\update_institution.html:44
-#: .\wikiconecta\settings_local.py:37
+#: templates/education_program/update_institution.html:44
 msgid "Mato Grosso do Sul"
 msgstr "Mato Grosso do Sul"
 
-#: .\templates\education_program\update_institution.html:45
-#: .\wikiconecta\settings_local.py:38
+#: templates/education_program/update_institution.html:45
 msgid "Mato Grosso"
 msgstr "Mato Grosso"
 
-#: .\templates\education_program\update_institution.html:46
-#: .\wikiconecta\settings_local.py:39
+#: templates/education_program/update_institution.html:46
 msgid "Pará"
 msgstr "Pará"
 
-#: .\templates\education_program\update_institution.html:47
-#: .\wikiconecta\settings_local.py:40
+#: templates/education_program/update_institution.html:47
 msgid "Paraíba"
 msgstr "Paraíba"
 
-#: .\templates\education_program\update_institution.html:48
-#: .\wikiconecta\settings_local.py:41
+#: templates/education_program/update_institution.html:48
 msgid "Pernambuco"
 msgstr "Pernambuco"
 
-#: .\templates\education_program\update_institution.html:49
-#: .\wikiconecta\settings_local.py:42
+#: templates/education_program/update_institution.html:49
 msgid "Piauí"
 msgstr "Piauí"
 
-#: .\templates\education_program\update_institution.html:50
-#: .\wikiconecta\settings_local.py:43
+#: templates/education_program/update_institution.html:50
 msgid "Paraná"
 msgstr "Paraná"
 
-#: .\templates\education_program\update_institution.html:51
-#: .\wikiconecta\settings_local.py:44
+#: templates/education_program/update_institution.html:51
 msgid "Rio de Janeiro"
 msgstr "Rio de Janeiro"
 
-#: .\templates\education_program\update_institution.html:52
-#: .\wikiconecta\settings_local.py:45
+#: templates/education_program/update_institution.html:52
 msgid "Rio Grande do Norte"
 msgstr "Rio Grande do Norte"
 
-#: .\templates\education_program\update_institution.html:53
-#: .\wikiconecta\settings_local.py:46
+#: templates/education_program/update_institution.html:53
 msgid "Rondônia"
 msgstr "Rondônia"
 
-#: .\templates\education_program\update_institution.html:54
-#: .\wikiconecta\settings_local.py:47
+#: templates/education_program/update_institution.html:54
 msgid "Roraima"
 msgstr "Roraima"
 
-#: .\templates\education_program\update_institution.html:55
-#: .\wikiconecta\settings_local.py:48
+#: templates/education_program/update_institution.html:55
 msgid "Rio Grande do Sul"
 msgstr "Rio Grande do Sul"
 
-#: .\templates\education_program\update_institution.html:56
-#: .\wikiconecta\settings_local.py:49
+#: templates/education_program/update_institution.html:56
 msgid "Santa Catarina"
 msgstr "Santa Catarina"
 
-#: .\templates\education_program\update_institution.html:57
-#: .\wikiconecta\settings_local.py:50
+#: templates/education_program/update_institution.html:57
 msgid "Sergipe"
 msgstr "Sergipe"
 
-#: .\templates\education_program\update_institution.html:58
-#: .\wikiconecta\settings_local.py:51
+#: templates/education_program/update_institution.html:58
 msgid "São Paulo"
 msgstr "São Paulo"
 
-#: .\templates\education_program\update_institution.html:59
-#: .\wikiconecta\settings_local.py:52
+#: templates/education_program/update_institution.html:59
 msgid "Tocantins"
 msgstr "Tocantins"
 
-#: .\templates\education_program\update_institution.html:60
-#: .\wikiconecta\settings_local.py:53
+#: templates/education_program/update_institution.html:60
 msgid "Other"
 msgstr "Outra localidade"
 
-#: .\templates\i18n.html:8
+#: templates/i18n.html:8
 msgid "Language"
 msgstr "Idioma"
 
-#: .\templates\navbar.html:6 .\templates\navbar.html:25
-#: .\templates\user_profile\index.html:5
+#: templates/navbar.html:6 templates/navbar.html:25
+#: templates/user_profile/index.html:5
 msgid "Homepage"
 msgstr "Página inicial"
 
-#: .\templates\navbar.html:33
+#: templates/navbar.html:33
 msgid "Join"
 msgstr "Inscrever-se"
 
-#: .\templates\navbar.html:59 .\templates\user_profile\participants.html:5
+#: templates/navbar.html:59 templates/user_profile/participants.html:5
 msgid "Participants"
 msgstr "Participantes"
 
-#: .\templates\navbar.html:80
+#: templates/navbar.html:80
 msgid "You have registration issues"
 msgstr "Você tem problemas na sua matrícula"
 
-#: .\templates\navbar.html:87
+#: templates/navbar.html:87
 msgid "Logout"
 msgstr "Sair"
 
-#: .\templates\navbar.html:95
+#: templates/navbar.html:95
 msgid "Login"
 msgstr "Entrar"
 
-#: .\templates\user_profile\certificate.html:5
+#: templates/user_profile/certificate.html:5
 msgid "Certificates"
 msgstr "Certificados"
 
-#: .\templates\user_profile\certificate.html:11
+#: templates/user_profile/certificate.html:11
 msgid "Enrollment letter"
 msgstr "Carta de matrícula"
 
-#: .\templates\user_profile\certificate.html:13
+#: templates/user_profile/certificate.html:13
 msgid ""
 "If you are enrolled in WikiConecta, you can download a letter declaring this "
 "statement."
@@ -1043,20 +1009,20 @@ msgstr ""
 "Se você está cadastrado(a) no WikiConecta, você pode baixar uma carta "
 "declarando isso."
 
-#: .\templates\user_profile\certificate.html:18
+#: templates/user_profile/certificate.html:18
 msgid "Download enrollment letter"
 msgstr "Baixar carta de matrícula"
 
-#: .\templates\user_profile\certificate.html:22
-#: .\templates\user_profile\certificate.html:61
+#: templates/user_profile/certificate.html:22
+#: templates/user_profile/certificate.html:61
 msgid "You have to enroll in the course first"
 msgstr "Você deve se inscrever no curso primeiro"
 
-#: .\templates\user_profile\certificate.html:28
+#: templates/user_profile/certificate.html:28
 msgid "Certificate of completion"
 msgstr "Certificado de conclusão"
 
-#: .\templates\user_profile\certificate.html:30
+#: templates/user_profile/certificate.html:30
 msgid ""
 "If you are enrolled and finished the readings and activities proposed, you "
 "can paste the links to the activities and request a certificate of "
@@ -1066,86 +1032,86 @@ msgstr ""
 "você pode colar os links das atividades e solicitar certificado de conclusão "
 "do WikiConecta."
 
-#: .\templates\user_profile\certificate.html:34
+#: templates/user_profile/certificate.html:34
 #, python-format
 msgid "You solicited the certificate of completion at %(formatted_date)s."
 msgstr "Você solicitou o certificado de conclusão em %(formatted_date)s."
 
-#: .\templates\user_profile\certificate.html:35
+#: templates/user_profile/certificate.html:35
 msgid "Update links submitted"
 msgstr "Atualizar links enviados"
 
-#: .\templates\user_profile\certificate.html:35
+#: templates/user_profile/certificate.html:35
 msgid "Update links of your submission"
 msgstr "Atualize os links do seu envio"
 
-#: .\templates\user_profile\certificate.html:45
+#: templates/user_profile/certificate.html:45
 msgid "Module 'Wikipedia' activity link:"
 msgstr "Link da atividade do módulo 'A Wikipedia':"
 
-#: .\templates\user_profile\certificate.html:46
+#: templates/user_profile/certificate.html:46
 msgid "URL of the activity of the second module"
 msgstr "URL da atividade do segundo módulo"
 
-#: .\templates\user_profile\certificate.html:47
+#: templates/user_profile/certificate.html:47
 msgid "Module 'Wikidata' activity link:"
 msgstr "Link da atividade do módulo 'O Wikidata':"
 
-#: .\templates\user_profile\certificate.html:48
+#: templates/user_profile/certificate.html:48
 msgid "URL of the activity of the third module"
 msgstr "URL da atividade do terceiro módulo"
 
-#: .\templates\user_profile\certificate.html:49
+#: templates/user_profile/certificate.html:49
 msgid "Module 'Wikimedia Commons' activity link:"
 msgstr "Link da atividade do módulo 'O Wikimedia Commons':"
 
-#: .\templates\user_profile\certificate.html:50
+#: templates/user_profile/certificate.html:50
 msgid "URL of the activity of the fourth module"
 msgstr "URL da atividade do quarto módulo"
 
-#: .\templates\user_profile\certificate.html:51
+#: templates/user_profile/certificate.html:51
 msgid "Module 'Wikiversity' activity link:"
 msgstr "Link da atividade do módulo 'A Wikiversidade':"
 
-#: .\templates\user_profile\certificate.html:52
+#: templates/user_profile/certificate.html:52
 msgid "URL of the activity of the fifth module"
 msgstr "URL da atividade do quinto módulo"
 
-#: .\templates\user_profile\certificate.html:53
+#: templates/user_profile/certificate.html:53
 msgid "Module 'Education programs' activity link:"
 msgstr "Link da atividade do módulo 'Programas de educação':"
 
-#: .\templates\user_profile\certificate.html:54
+#: templates/user_profile/certificate.html:54
 msgid "URL of the activity of the sixth module"
 msgstr "URL da atividade do sexto módulo"
 
-#: .\templates\user_profile\certificate.html:55
+#: templates/user_profile/certificate.html:55
 msgid "Solicit certificate of completion"
 msgstr "Solicitar certificado de conclusão"
 
-#: .\templates\user_profile\index.html:9
+#: templates/user_profile/index.html:9
 msgid "WikiConecta"
 msgstr "WikiConecta"
 
-#: .\templates\user_profile\index.html:11
+#: templates/user_profile/index.html:11
 msgid "Welcome"
 msgstr "Bem-vindo(a)"
 
-#: .\templates\user_profile\index.html:13
+#: templates/user_profile/index.html:13
 msgid "About the course"
 msgstr "Sobre o curso"
 
-#: .\templates\user_profile\index.html:15
+#: templates/user_profile/index.html:15
 msgid ""
 "The Wikiconecta is an initiative from <a target=\"_blank\" href=\"https://"
 "meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia Brasil\" aria-"
 "label=\"Wikimedia Brasil's page\">Wikimedia Brasil</a>."
 msgstr ""
-"O WikiConecta é uma realização do <a target=\"_blank\" href=\"https://meta."
-"wikimedia.org/wiki/Special:MyLanguage/Wikimedia_Brasil\" aria-"
+"O WikiConecta é uma realização do <a target=\"_blank\" href=\"https://"
+"meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_Brasil\" aria-"
 "label=\"página da Wikimedia Brasil\">Wikimedia Brasil</a>."
 
-#: .\templates\user_profile\index.html:16
+#: templates/user_profile/index.html:16
 msgid ""
 "It was developed over several months of research and work, and counted with "
 "the participation of <a target=\"_blank\" href=\"https://pt.wikiversity.org/"
@@ -1157,11 +1123,11 @@ msgstr ""
 "wiki/WikiConecta/Expediente\" aria-label=\"Wikimedians involved\">diversos "
 "Wikimedistas</a>, comprometidos com o conhecimento livre."
 
-#: .\templates\user_profile\index.html:19
+#: templates/user_profile/index.html:19
 msgid "Certification"
 msgstr "Certificação"
 
-#: .\templates\user_profile\index.html:20
+#: templates/user_profile/index.html:20
 msgid ""
 "The course is divided into 6 modules, which one of them subdivided into "
 "units. With the exception of the \"Module 1 - Introduction\", every module "
@@ -1179,7 +1145,7 @@ msgstr ""
 "Grupo_de_Usuários_Wiki_Movimento_Brasil/WikiConecta\" aria-"
 "label=\"Enrollment page\">inscrito(a) no WikiConecta</a>."
 
-#: .\templates\user_profile\index.html:21
+#: templates/user_profile/index.html:21
 msgid ""
 "Once you are enrolled in the course, and after you have completed the "
 "activities, click in the \"Certificate\" button in the left menu to request "
@@ -1189,7 +1155,7 @@ msgstr ""
 "obrigatórias, clique no botão \"Certificado\" no menu esquerdo desta tela "
 "para fazer a sua solicitação."
 
-#: .\templates\user_profile\index.html:22
+#: templates/user_profile/index.html:22
 msgid ""
 "If you need help to navigate the tool, access the <a target=\"_blank\" "
 "href=\"https://pt.wikiversity.org/wiki/WikiConecta/Tutorial_certificado\" "
@@ -1201,123 +1167,123 @@ msgstr ""
 "Tutorial_certificado\" aria-label=\"Tutorial do processo de "
 "certificação\">tutorial feito pela equipe do WMB</a>."
 
-#: .\templates\user_profile\participants.html:9
+#: templates/user_profile/participants.html:9
 msgid "WikiConecta's dashboard participants"
 msgstr "Participantes do dashboard do WikiConecta"
 
-#: .\templates\user_profile\participants.html:11
+#: templates/user_profile/participants.html:11
 msgid "All"
 msgstr "Todos"
 
-#: .\templates\user_profile\participants.html:17
+#: templates/user_profile/participants.html:17
 msgid "Update list"
 msgstr "Atualizar lista"
 
-#: .\templates\user_profile\participants.html:25
+#: templates/user_profile/participants.html:25
 msgid "Registered here"
 msgstr "Cadastrado aqui"
 
-#: .\templates\user_profile\participants.html:26
+#: templates/user_profile/participants.html:26
 msgid "Requested certificate"
 msgstr "Pediu certificado"
 
-#: .\templates\user_profile\participants.html:34
-#: .\templates\user_profile\participants.html:35
+#: templates/user_profile/participants.html:34
+#: templates/user_profile/participants.html:35
 msgid "Yes"
 msgstr "Sim"
 
-#: .\templates\user_profile\participants.html:34
-#: .\templates\user_profile\participants.html:35
+#: templates/user_profile/participants.html:34
+#: templates/user_profile/participants.html:35
 msgid "No"
 msgstr "Não"
 
-#: .\templates\user_profile\profile.html:5
+#: templates/user_profile/profile.html:5
 msgid "Profile"
 msgstr "Perfil"
 
-#: .\templates\user_profile\profile.html:9
+#: templates/user_profile/profile.html:9
 msgid "Your profile"
 msgstr "Seu perfil"
 
-#: .\templates\user_profile\profile.html:13
+#: templates/user_profile/profile.html:13
 msgid "First name:"
 msgstr "Nome"
 
-#: .\templates\user_profile\profile.html:15
+#: templates/user_profile/profile.html:15
 msgid "Last name:"
 msgstr "Sobrenome"
 
-#: .\templates\user_profile\profile.html:17
+#: templates/user_profile/profile.html:17
 msgid "Email:"
 msgstr "E-mail:"
 
-#: .\templates\user_profile\profile.html:19
+#: templates/user_profile/profile.html:19
 msgid "Username:"
 msgstr "Nome de usuário(a):"
 
-#: .\templates\user_profile\profile.html:23
+#: templates/user_profile/profile.html:23
 msgid "Is enrolled in?"
 msgstr "Está matriculado(a)?"
 
-#: .\templates\user_profile\profile.html:24
+#: templates/user_profile/profile.html:24
 msgid ""
-"<span class=\"red_fill\">You are not <a target=\"_blank\" href=\"https://pt."
-"wikiversity.org/wiki/WikiConecta/Inscrição\">registered in WikiConecta</a>.</"
-"span>"
+"<span class=\"red_fill\">You are not <a target=\"_blank\" href=\"https://"
+"pt.wikiversity.org/wiki/WikiConecta/Inscrição\">registered in WikiConecta</"
+"a>.</span>"
 msgstr ""
 "<span class=\"red_fill\">Você ainda não está <a target=\"_blank\" "
 "href=\"https://pt.wikiversity.org/wiki/WikiConecta/"
 "Inscrição\">matriculado(a) no WikiConecta</a>.</span>"
 
-#: .\templates\user_profile\profile.html:26
+#: templates/user_profile/profile.html:26
 msgid "Last time of modification in this profile:"
 msgstr "Última vez que houve uma modificação nesse perfil:"
 
-#: .\user_profile\models.py:14 .\user_profile\models.py:61
+#: user_profile/models.py:14 user_profile/models.py:61
 msgid "username"
 msgstr "nome de usuário(a)"
 
-#: .\user_profile\models.py:18
+#: user_profile/models.py:18
 msgid "Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only."
 msgstr ""
 "Obrigatório. 150 caracteres ou menos. Somente Letras, dígitos e @/./+/-/_."
 
-#: .\user_profile\models.py:21
+#: user_profile/models.py:21
 msgid "A user with that username already exists."
 msgstr "Um usuário com esse nome já existe."
 
-#: .\user_profile\models.py:30
+#: user_profile/models.py:30
 msgid "old_first_name"
 msgstr "nome_antigo"
 
-#: .\user_profile\models.py:31
+#: user_profile/models.py:31
 msgid "old_last_name"
 msgstr "sobrenome_antigo"
 
-#: .\user_profile\models.py:32
+#: user_profile/models.py:32
 msgid "old_email"
 msgstr "email_velho"
 
-#: .\user_profile\models.py:33
+#: user_profile/models.py:33
 msgid "new_first_name"
 msgstr "novo_nome"
 
-#: .\user_profile\models.py:34
+#: user_profile/models.py:34
 msgid "new_last_name"
 msgstr "novo_sobrenome"
 
-#: .\user_profile\models.py:35
+#: user_profile/models.py:35
 msgid "new_email"
 msgstr "novo_email"
 
-#: .\user_profile\views.py:75
+#: user_profile/views.py:75
 msgid "Ok, database updated"
 msgstr "Ok, banco de dados atualizado"
 
-#: .\wikiconecta\settings.py:131
+#: wikiconecta/settings.py:131
 msgid "English"
 msgstr "Inglês"
 
-#: .\wikiconecta\settings.py:132
+#: wikiconecta/settings.py:132
 msgid "Brazilian Portuguese"
 msgstr "Português brasileiro"
