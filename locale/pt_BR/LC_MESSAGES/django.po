@@ -133,7 +133,7 @@ msgid ""
 "units:"
 msgstr ""
 "O WikiConecta é dividido em seis módulos, cada qual subdividido em várias "
-"unidades. São elas:"
+"unidades:"
 
 #: .\certificate\views.py:232
 msgid "Module 1: Introduction"
